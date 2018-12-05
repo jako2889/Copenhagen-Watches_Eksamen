@@ -5,9 +5,25 @@
 :root{
 
 /*Farve palette --------------------------------------    */
+/*grøn*/
 --main-green-color: #30403e;
 /*indsæt fx. --> var(--main-green-color)   <--  */
 
+/* SAND   */
+--main-sand-color: #c0bba0;
+
+/* Beton Grå  */
+--main-beton-color: #717270;
+
+
+/* Nordisk Lys  */
+--main-nordisk-color: #90c0bb;
+
+/* Kobber Rød  */
+--main-kobber_red-color: #b96b54;
+
+/* Kobber Green  */
+--main-kobber_green-color: #8ace9b;
 
 
 
