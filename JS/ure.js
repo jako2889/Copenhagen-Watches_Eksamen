@@ -44,6 +44,14 @@ function visPost() {
             klon.querySelector(".prod_pris").textContent = post.acf.pris + "kr.";
 
 
+            klon.querySelector(".product_container").addEventListener("click",() =>{
+
+                 window.location.href = "ure_single_page.html?id=" + post.id;
+
+
+            });
+
+
             console.log(post.acf.pris);
             //Udskriver
             postOutput.appendChild(klon);
