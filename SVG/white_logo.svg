@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="215.82" height="64.12" viewBox="0 0 215.82 64.12">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-14, .cls-15, .cls-2 {
+        font-size: 34px;
+        font-family: BebasNeue-Regular, Bebas Neue;
+      }
+
+      .cls-2 {
+        fill: #231f20;
+      }
+
+      .cls-3 {
+        letter-spacing: 0.02em;
+      }
+
+      .cls-4 {
+        letter-spacing: 0.02em;
+      }
+
+      .cls-5 {
+        letter-spacing: 0.02em;
+      }
+
+      .cls-6 {
+        letter-spacing: 0.02em;
+      }
+
+      .cls-7 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-8 {
+        letter-spacing: 0.21em;
+      }
+
+      .cls-9 {
+        letter-spacing: 0.17em;
+      }
+
+      .cls-10 {
+        letter-spacing: 0.22em;
+      }
+
+      .cls-11 {
+        letter-spacing: 0.22em;
+      }
+
+      .cls-12 {
+        letter-spacing: 0.22em;
+      }
+
+      .cls-13 {
+        letter-spacing: 0.22em;
+      }
+
+      .cls-14 {
+        fill: #fffeff;
+      }
+
+      .cls-15, .cls-16 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-path" transform="translate(-305.94 -264.24)">
+      <rect class="cls-1" x="296.94" y="260.64" width="232.53" height="68.72"/>
+    </clipPath>
+  </defs>
+  <title>white_logo</title>
+  <g id="Layer_5" data-name="Layer 5">
+    <text class="cls-2" transform="translate(0 28.9)"><tspan class="cls-3">C</tspan><tspan class="cls-4" x="13.77" y="0">OPENH</tspan><tspan class="cls-5" x="85.03" y="0">A</tspan><tspan class="cls-6" x="99.28" y="0">GE</tspan><tspan x="126.27" y="0">N</tspan></text>
+    <g class="cls-7">
+      <text class="cls-2" transform="translate(1.1 57.32)"><tspan class="cls-8">W</tspan><tspan class="cls-9" x="25.94" y="0">A</tspan><tspan class="cls-10" x="45.49" y="0">T</tspan><tspan class="cls-11" x="65.21" y="0">C</tspan><tspan class="cls-12" x="85.71" y="0">H</tspan><tspan class="cls-13" x="107.44" y="0">E</tspan><tspan x="127.33" y="0">S</tspan></text>
+    </g>
+    <rect x="193.02" y="5.4" width="22.79" height="22.79"/>
+    <rect x="193.02" y="34.3" width="22.79" height="22.79"/>
+    <rect x="148" y="34.3" width="38.63" height="22.79"/>
+    <rect x="148" y="5.4" width="38.63" height="22.79"/>
+  </g>
+  <g id="Layer_3" data-name="Layer 3">
+    <text class="cls-14" transform="translate(0 28.9)"><tspan class="cls-3">C</tspan><tspan class="cls-4" x="13.77" y="0">OPENH</tspan><tspan class="cls-5" x="85.03" y="0">A</tspan><tspan class="cls-6" x="99.28" y="0">GE</tspan><tspan x="126.27" y="0">N</tspan></text>
+    <g class="cls-7">
+      <text class="cls-15" transform="translate(1.1 57.32)"><tspan class="cls-8">W</tspan><tspan class="cls-9" x="25.94" y="0">A</tspan><tspan class="cls-10" x="45.49" y="0">T</tspan><tspan class="cls-11" x="65.21" y="0">C</tspan><tspan class="cls-12" x="85.71" y="0">H</tspan><tspan class="cls-13" x="107.44" y="0">E</tspan><tspan x="127.33" y="0">S</tspan></text>
+    </g>
+    <rect class="cls-16" x="193.02" y="5.4" width="22.79" height="22.79"/>
+    <rect class="cls-16" x="193.02" y="34.3" width="22.79" height="22.79"/>
+    <rect class="cls-16" x="148" y="34.3" width="38.63" height="22.79"/>
+    <rect class="cls-16" x="148" y="5.4" width="38.63" height="22.79"/>
+  </g>
+</svg>
