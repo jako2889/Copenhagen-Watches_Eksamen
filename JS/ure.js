@@ -83,7 +83,7 @@ function visPost() {
             klon.querySelector(".prod_kollektion").textContent = post.acf.kollektion;
             klon.querySelector(".prod_dial").textContent = post.acf.dial;
             klon.querySelector(".prod_rem").textContent = post.acf.rem;
-            klon.querySelector(".prod_pris").textContent = post.acf.pris + "kr.";
+            klon.querySelector(".prod_pris").textContent = post.acf.pris + " " + "kr.";
 
 
             klon.querySelector(".product_container").addEventListener("click",() =>{
