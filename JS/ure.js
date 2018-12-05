@@ -9,6 +9,10 @@ let postTarget = document.querySelector(".product_template");
 let postOutput = document.querySelector(".product_wrapper");
 
 
+let knap_kollektion = "alle";
+
+
+
 //Hentf ---------------------------------------------------------------------------------------------------------------------------------------------------------
 async function getJson() {
 
@@ -17,8 +21,34 @@ async function getJson() {
     allPost = await jsonObject.json();
 
 
+    document.querySelectorAll(".filter_knap").forEach(knap =>{
+
+        knap.addEventListener("click", filter)
+
+    });
+
     visPost();
 }
+
+
+function filter(){
+
+
+
+    knap_kollektion = this.getAttribute("data-knap_kollektion");
+
+
+    console.log(knap_kollektion);
+
+
+
+    postOutput.textContent ="";
+
+    visPost();
+
+}
+
+
 
 //visPost ---------------------
 function visPost() {
@@ -27,7 +57,19 @@ function visPost() {
     allPost.forEach(post => {
    console.log("FEST");
 
-        udSkrivPost(post);
+
+        if(knap_kollektion == "alle"){
+
+                    udSkrivPost(post);
+
+        };
+
+        if(knap_kollektion == post.acf.kollektion){
+
+                    udSkrivPost(post);
+
+        };
+
 
         //Udskriver fra template til dokument
         function udSkrivPost(post) {

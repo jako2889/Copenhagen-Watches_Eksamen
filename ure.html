@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="da">
+
 <head>
 
     <!-- META TAGS -->
@@ -27,7 +28,7 @@
 
     <!--    TEMPLATE-->
     <template class="product_template">
-<!-- KOPIERES GENNEM JS-->
+        <!-- KOPIERES GENNEM JS-->
         <article class="product_container">
 
             <div class="image_con">
@@ -35,11 +36,11 @@
             </div>
 
             <div class="text_con">
-            <div class="prod_title"></div>
-            <div class="prod_kollektion"></div>
-            <div class="prod_dial"></div>
-            <div class="prod_rem"></div>
-            <div class="prod_pris"></div>
+                <div class="prod_title"></div>
+                <div class="prod_kollektion"></div>
+                <div class="prod_dial"></div>
+                <div class="prod_rem"></div>
+                <div class="prod_pris"></div>
             </div>
         </article>
 
@@ -49,6 +50,26 @@
     <section id="ure" class="site_content_wrapper">
 
         <div class="site_content_container">
+
+            <!--          FILTER URE -->
+            <div class="ure_filter_wrapper">
+
+                <div class="ure_filter_container">
+                    <!--                   KNAPPER TIL FILER MED KATAGORI, SAMMENLIGNES I JS-->
+                    <div class="filter_knap" data-knap_kollektion="alle">Alle&nbspure</div>
+                    <span class="filter_backslash">/</span>
+                    <div class="filter_knap" data-knap_kollektion="Copenhagen">Copenhagen</div>
+                    <span class="filter_backslash">/</span>
+                    <div class="filter_knap" data-knap_kollektion="Frederiksberg">Frederiksberg</div>
+                    <span class="filter_backslash">/</span>
+                    <div class="filter_knap" data-knap_kollektion="Nyhavn">Nyhavn</div>
+                    <span class="filter_backslash">/</span>
+                    <div class="filter_knap" data-knap_kollektion="Christiania">Christiania</div>
+
+                </div>
+
+            </div>
+
 
             <div class="product_wrapper">
 
@@ -69,6 +90,5 @@
     <script src="JS/ure-filter.js"></script>
 
 </body>
+
 </html>
-
-

@@ -2,6 +2,19 @@
     box-sizing: border-box;
 }
 
+:root{
+
+/*Farve palette --------------------------------------    */
+--main-green-color: #30403e;
+/*indsæt fx. --> var(--main-green-color)   <--  */
+
+
+
+
+/*Farve palette END --------------------------------------    */
+
+}
+
 body {
     margin: 0;
 }
