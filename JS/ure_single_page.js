@@ -29,13 +29,36 @@ async function getJson() {
 
                  console.log("HESTE FEST")
 
-            display.querySelector(".single_prod_image").src = post.acf.image_prime.url;
+            display.querySelector(".head_title").textContent = post.acf.title;
+            display.querySelector(".head_kollektion").textContent = post.acf.kollektion;
+            display.querySelector(".head_dial").textContent = post.acf.dial;
 
-            display.querySelector(".single_prod_title").textContent = post.acf.title;
-            display.querySelector(".single_prod_kollektion").textContent = post.acf.kollektion;
-            display.querySelector(".single_prod_dial").textContent = post.acf.dial;
-            display.querySelector(".single_prod_rem").textContent = post.acf.rem;
-            display.querySelector(".single_prod_pris").textContent = post.acf.pris + "kr.";
+
+            display.querySelector(".image_1").src = post.acf.image_prime.url;
+            display.querySelector(".image_2").src = post.acf.image_2.url;
+            display.querySelector(".image_3").src = post.acf.image_3.url;
+            display.querySelector(".image_4").src = post.acf.image_4.url;
+            display.querySelector(".image_5").src = post.acf.image_5.url;
+            display.querySelector(".image_6").src = post.acf.image_6.url;
+            display.querySelector(".image_7").src = post.acf.image_7.url;
+
+
+            display.querySelector(".but_1").src = post.acf.image_prime.url;
+            display.querySelector(".but_2").src = post.acf.image_2.url;
+            display.querySelector(".but_3").src = post.acf.image_3.url;
+            display.querySelector(".but_4").src = post.acf.image_4.url;
+            display.querySelector(".but_5").src = post.acf.image_5.url;
+            display.querySelector(".but_6").src = post.acf.image_6.url;
+            display.querySelector(".but_7").src = post.acf.image_7.url;
+
+
+
+
+
+
+
+//            display.querySelector(".single_prod_rem").textContent = post.acf.rem;
+//            display.querySelector(".single_prod_pris").textContent = post.acf.pris + "kr.";
 
 
                 }
@@ -50,3 +73,31 @@ async function getJson() {
             });
 
         }
+
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-red", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-red";
+}

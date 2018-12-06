@@ -1,0 +1,115 @@
+.single_product_container{
+
+
+    background-color: rgba(128, 128, 128, 0.32);
+    display: grid;
+
+}
+
+
+
+.mySlides {
+    display: none
+}
+
+.head_con {
+
+
+    font-family: europa, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+    color: var(--main-tekst_graa-color);
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    grid-template-areas:
+
+        ". t ."
+        ". k ."
+}
+
+
+.title_con {
+
+    grid-area: t;
+
+}
+
+
+.head_title {
+
+    font-family: bebas-neue, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    letter-spacing: 2px;
+
+}
+
+.kol_dial_con {
+
+    grid-area: k;
+
+    display: flex;
+    text-align: center;
+
+        font-size: 1.5em;
+
+
+
+}
+
+.head_kollektion {
+
+
+}
+
+.line{
+
+    margin: 0px 10px;
+    font-size: 1em;
+    text-align: center;
+}
+.head_dial {}
+
+
+
+
+
+
+
+.single_product_container {
+
+    width: 100vw;
+    padding: 10px;
+
+}
+
+.image_butt_con {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 4px;
+
+    border: solid grey 1px;
+
+}
+
+.image_butt_con button {
+
+    display: block;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    border: 0px transparent solid;
+
+}
+
+
+.demo img {
+
+    width: 100%;
+}
