@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="da">
+
 <head>
 
-   <!-- META TAGS -->
+    <!-- META TAGS -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CONTACT</title>
     <meta name="Description" content="Kontakt os hvis du vil vide mere om Copenhagen Watches eller spørge ind til vores design, værdier og visioner.">
 
-   <!-- FONT LINKS -->
-   <link rel="stylesheet" href="https://use.typekit.net/tfs8sao.css">
+    <!-- FONT LINKS -->
+    <link rel="stylesheet" href="https://use.typekit.net/tfs8sao.css">
 
 
-   <!-- FAV ICONS -->
+    <!-- FAV ICONS -->
 
-   <!-- STYLESHEETS -->
+    <!-- STYLESHEETS -->
     <link rel="stylesheet" href="CSS/contact.css">
     <link rel="stylesheet" href="CSS/header.css">
     <link rel="stylesheet" href="CSS/footer.css">
@@ -23,7 +24,6 @@
 </head>
 
 <body>
-
     <header>
         <nav>
             <div id="nav_container">
@@ -31,101 +31,146 @@
                     <img src="SVG/white_logo.svg" alt="Copenhagen Watches">
                 </div>
                 <label for="toggle">&#9776;</label>
-                <input type="checkbox" id="toggle"/>
-
-                   <div class="menu">
-
+                <input type="checkbox" id="toggle" />
+                <div class="menu">
                     <a href="index.html">Home</a>
                     <a href="ure.html">Ure</a>
                     <a href="lifestyle.html">Lifestyle</a>
                     <a href="about.html">About</a>
                     <a href="contact.html">Contact</a>
-
-                    </div>
-
-
+                </div>
             </div>
         </nav>
     </header>
 
-   <section id="contact" class="site_content_wrapper">
+    <div id="grid_container">
+        <div class="kontakt">
+            <form id="contact" action="" method="post">
+                <h3>Kontakt os</h3>
+                <h4>Har du spørgsmål eller er du en influrencer, så kontakt os endelig gennem kontaktformularen her.</h4>
+                <fieldset>
+                    <input placeholder="Dit navn:" type="text" tabindex="1" required autofocus>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Din Email Addresse:" type="email" tabindex="2" required>
+                </fieldset>
 
+                <fieldset>
+                    <textarea placeholder="Skriv din Besked Her...." tabindex="5" required></textarea>
+                </fieldset>
+                <fieldset>
+                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">SEND</button>
+                </fieldset>
+            </form>
+        </div>
+
+        <div id="kontakt_info">
+            <h3>Kontakt info</h3>
+            <h4>+44 345 678 903 <br> adobexd@mail.com
+            </h4><br>
+
+            <h3>Kontor Adresse:</h3>
+            <h4>Tornebuskegade 1, 1st <br> 1131 København <br> Danmark
+            </h4> <br>
+
+            <h1>Copenhagen Watches har ingen fysisk butik… <br>endnu
+            </h1>
+        </div>
+    </div>
+
+    <iframe src="https://snazzymaps.com/embed/118585" style="border:none;"></iframe>
+
+    <div class="newsletter">
+        <form id="signup" action="" method="post">
+            <h3>Nyhedsbrev</h3>
+            <h4>Vær den første til at få vores nyheder!</h4>
+
+            <fieldset>
+                <input placeholder="Din Email Addresse:" type="email" tabindex="2" required>
+            </fieldset>
+
+            <fieldset>
+                <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">SIGN UP</button>
+
+
+            </fieldset>
+            <img id="s_logo" src="social.png" alt="socialelogoer">
+        </form>
+
+    </div>
+
+
+    <section id="contact" class="site_content_wrapper">
         <div class="site_content_container">
-
-       </div>
-
+        </div>
     </section>
 
-<footer>
-  <div id="footer_container">
-   <div class="list_container1">
-    <h3 class="list1">URE</h3>
-      <ul>
-        <li>Copenhagen</li>
-        <li>Christinia</li>
-        <li>Nyhavn</li>
-        <li>Frederiksberg</li>
-      </ul>
-    </div>
-    <div id="footer_lifestyle">
-    <h3>LIFESTYLE</h3>
-    </div>
-    <div id="footer_about">
-    <h3>ABOUT</h3>
-    </div>
-  <div id="footer_forhandlere">
-    <h3>FORHANDLERE</h3>
-    </div>
-    <div id="footer_terms">
-    <h3>TERMS AND CONDITIONS</h3>
-    </div>
-    <div id="list_container2">
-    <h3 class="list2">CONTACT</h3>
-    <ul>
-    <li>+44345678903</li>
-    <li>adobexd@mail.com</li>
-    <li>Find a store</li>
-    </ul>
-   </div>
+    <footer>
+        <div id="footer_container">
+            <div class="list_container1">
+                <h3 class="list1">URE</h3>
+                <ul>
+                    <li>Copenhagen</li>
+                    <li>Christinia</li>
+                    <li>Nyhavn</li>
+                    <li>Frederiksberg</li>
+                </ul>
+            </div>
+            <div id="footer_lifestyle">
+                <h3>LIFESTYLE</h3>
+            </div>
+            <div id="footer_about">
+                <h3>ABOUT</h3>
+            </div>
+            <div id="footer_forhandlere">
+                <h3>FORHANDLERE</h3>
+            </div>
+            <div id="footer_terms">
+                <h3>TERMS AND CONDITIONS</h3>
+            </div>
+            <div id="list_container2">
+                <h3 class="list2">CONTACT</h3>
+                <ul>
+                    <li>+44345678903</li>
+                    <li>adobexd@mail.com</li>
+                    <li>Find a store</li>
+                </ul>
+            </div>
 
+            <div id="text2_container">
+                <div id="streg">
+                    <hr>
+                </div>
+                <h3>Copenhagen Watches har ingen fysisk butik... endnu</h3>
+            </div>
 
-   <div id="text2_container">
-    <div id="streg">
-    <hr>
-    </div>
-    <h3>Copenhagen Watches har ingen fysisk butik... endnu</h3>
-   </div>
+            <div id="betaling">
+                <h3>Betalingsmuligheder</h3>
+                <div id="betaling_visa">
+                    <img src="SVG/Visa_icon.svg" alt="betaling visa">
+                </div>
+                <div id="betaling_mastercard">
+                    <img src="SVG/mastercard_iconv2.svg" alt="betaling mastercard">
+                </div>
+                <div id="betaling_maestro">
+                    <img src="SVG/maestro_iconv2.svg" alt="betaling maestro">
+                </div>
+                <div id="betaling_apple-pay">
+                    <img src="SVG/apple_pay_iconv2.svg" alt="betaling apple pay">
+                </div>
+            </div>
 
-   <div id="betaling">
-    <h3>Betalingsmuligheder</h3>
-    <div id="betaling_visa">
-    <img src="SVG/Visa_icon.svg" alt="betaling visa">
-    </div>
-    <div id="betaling_mastercard">
-    <img src="SVG/mastercard_iconv2.svg" alt="betaling mastercard">
-    </div>
-    <div id="betaling_maestro">
-    <img src="SVG/maestro_iconv2.svg" alt="betaling maestro">
-    </div>
-    <div id="betaling_apple-pay">
-    <img src="SVG/apple_pay_iconv2.svg" alt="betaling apple pay">
-    </div>
-
-   </div>
-
-   <div id="copyright">
-    <div id="logo_footer">
-    <img src="SVG/black_logo.svg" alt="Copenhagen Watches">
-    </div>
-    <h3>c/ 2018 Copenhagen Watches</h3>
-   </div>
-
-    </div>
-</footer>
-
-<!-- SCRIPTS -->
-<script src="JS/main-script.js"></script>
-<script src="JS/contact.js"></script>
-
+            <div id="copyright">
+                <div id="logo_footer">
+                    <img src="SVG/black_logo.svg" alt="Copenhagen Watches">
+                </div>
+                <h3>c/ 2018 Copenhagen Watches</h3>
+            </div>
+        </div>
+    </footer>
+    <!-- SCRIPTS -->
+    <script src="JS/main-script.js"></script>
+    <script src="JS/contact.js"></script>
 </body>
+
 </html>
