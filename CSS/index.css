@@ -192,6 +192,8 @@ font-style: normal;
 
 .demo {
 
+    display: none;
+
     width: 100%;
     border: solid grey 1px;
     background-color: transparent;
@@ -246,3 +248,59 @@ font-style: normal;
     justify-content: space-between;
 
 }
+
+/*LIFESTYLE*/
+
+
+.index_lifestyle_con{
+
+    color: var(--main-tekst_graa-color);
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+
+        "i"
+        "t"
+
+
+
+}
+
+.ind_life_img{
+
+    grid-area: i;
+
+}
+
+.ind_life_txt_con{
+
+    grid-area: t;
+
+    padding:25px;
+    background-color: rgba(128, 128, 128, 0.23);
+}
+
+.ind_life_head{
+
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+.ind_life_text{
+    font-size: 1.2em;
+
+}
+.ind_life_cta{
+
+    font-family: europa, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1em;
+    padding: 10px 50px;
+    background-color: var(--main-sand-color);
+    border-radius: 5px;
+}
+
+
