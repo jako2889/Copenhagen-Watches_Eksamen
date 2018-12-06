@@ -1,0 +1,269 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+/*GRID FOOTER START*/
+footer {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: grid;
+}
+#footer_container {
+    width: 100%;
+    background-color: #C0BBA0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(9, auto);
+
+
+}
+footer #list_container1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+#footer_lifestyle {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#footer_about {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+#footer_forhandlere {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+#footer_terms {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+footer #list_container2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+footer #text2_container {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 8;
+    grid-row-end: 9;
+
+    margin-top: 2em;
+}
+footer #betaling {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 10;
+    grid-row-end: 11;
+
+}
+footer #copyright {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 11;
+    grid-row-end: 12;
+    text-align: center;
+    margin-top: 2em;
+}
+/*GRID FOOTER SLUT*/
+
+footer li{
+font-family: europa, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+list-style-type: none;
+}
+footer ul {
+    padding: 0;
+    margin-top: 0;
+}
+
+footer .list1 {
+  margin-bottom: 0;
+}
+footer .list2 {
+   margin-bottom: 0;
+}
+footer #logo_footer img {
+width: 150px;
+}
+
+footer #betaling h3 {
+    font-size: 1em;
+}
+
+footer #betaling img {
+    max-width: 75px;
+}
+
+footer #text2_container h3 {
+    font-size: 1.3em;
+    margin-top: 0;
+    text-align: center;
+}
+footer hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0;
+    border-style: solid;
+    border-width: 1.5px;
+    background-color: black;
+    width: 200px;
+}
+
+
+footer #betaling {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+        "tekst tekst tekst tekst"
+        "visa mastercard maestro apple"
+}
+footer #betaling h3 {
+    grid-area: tekst;
+    text-align: center;
+}
+footer #betaling #betaling_visa {
+    grid-area: visa;
+}
+footer #betaling #betaling_mastercard {
+    grid-area: mastercard;
+}
+footer #betaling #betaling_maestro {
+    grid-area: maestro;
+}
+footer #betaling #betaling_apple-pay {
+    grid-area: apple;
+}
+
+@media screen and (min-width: 500px) and (max-width: 2500px) {
+
+    #footer_container {
+    width: 100%;
+    background-color: #C0BBA0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(9, auto);
+text-align: center;
+
+}
+    footer #list_container1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+#footer_lifestyle {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+#footer_about {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+#footer_forhandlere {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+#footer_terms {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+}
+footer #list_container2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+}
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 2500px) {
+
+
+
+    footer #betaling {
+        justify-content: center;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 100px);
+    grid-template-areas:
+        "tekst tekst tekst tekst"
+        "visa mastercard maestro apple"
+}
+footer #betaling h3 {
+    grid-area: tekst;
+    text-align: center;
+}
+footer #betaling #betaling_visa {
+    grid-area: visa;
+}
+footer #betaling #betaling_mastercard {
+    grid-area: mastercard;
+}
+footer #betaling #betaling_maestro {
+    grid-area: maestro;
+}
+footer #betaling #betaling_apple-pay {
+    grid-area: apple;
+}
+
+
+
+
+}
+
+@media screen and (min-width: 1000px) and (max-width: 2500px) {
+    footer #text2_container {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 8;
+    grid-row-end: 9;
+}
+    footer {
+        background-color: #C0BBA0;
+        justify-content: center;
+    }
+            #footer_container {
+    width: 1000px;
+    background-color: #C0BBA0;
+    display: grid;
+    grid-template-columns: 1fr 25vw 1fr;
+        grid-template-rows: repeat(7, auto) 1fr auto 1fr 1fr;
+text-align: center;
+    }
+ footer #copyright {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 11;
+    grid-row-end: 12;
+    text-align: center;
+     align-self: flex-end;
+}
+
+
+
+}
