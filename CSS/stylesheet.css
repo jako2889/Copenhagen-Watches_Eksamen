@@ -70,3 +70,55 @@ font-family: droid-serif, serif;
 font-weight: 400;
 font-style: normal;
 }
+
+
+/*SOCIALE MEDIA-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.some_wrapper{}
+.some_con{
+
+    background-color: var(--main-nordisk-color);
+
+    padding: 25px;
+}
+
+.some_tag{
+
+    font-family: bebas-neue, sans-serif;
+font-weight: 400;
+font-style: normal;
+    text-align: center;
+    font-size: 2em;
+}
+
+.some_tekst{
+    text-align: center;
+    font-family: droid-serif, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
+    color: var(--main-tekst_graa-color);
+
+}
+.some_ikons_con{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.some_ikons_con a{
+
+    margin: 20px;
+}
+.some_ikons_con a img{
+
+    opacity: .5;
+}
+
+.some_ikons_con a img:hover{
+
+    opacity: .7;
+}
+
+/*SOCIALE MEDIA END-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
