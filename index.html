@@ -24,6 +24,33 @@
 <body>
 
     <header></header>
+    <!--TEMPLATE TIL PROOTION PRODUCTS-->
+    <template class="promotion_product_template">
+        <!-- KOPIERES GENNEM JS-->
+
+        <div class="mySlides">
+
+           <div class="prom_prod_con">
+            <div class="prom_image_con">
+                <img class="prom_prod_image" src="" alt="">
+            </div>
+
+            <div class="prom_text_con">
+                <div class="prom_name">
+                    <div class="prom_prod_title"></div>
+                    <div class="prom_prod_kollektion"></div>
+                </div>
+                <div class="prom_spec">
+                    <div class="prom_prod_dial"></div>
+                    <div class="prom_prod_rem"></div>
+                </div>
+                <div class="prom_prod_pris"></div>
+            </div>
+            </div>
+        </div>
+
+    </template>
+
 
     <section id="home" class="site_content_wrapper">
 
@@ -36,68 +63,33 @@
             <article class="promotion_product_wrapper">
                 <div class="promotion_product_container">
 
-
-                    <div class="w3-content" style="max-width:800px">
-
-                       <div class="mySlides">
-                        <img class="" src="https://picsum.photos/500/500" style="width:100%">
-
-                        <div class="prom_prod_title">Casual</div>
-
-                        </div>
-
-                        <div class="mySlides">
-                        <img class="" src="https://picsum.photos/400/400" style="width:100%">
-                        <div class="prom_prod_title">SEA</div>
-
-                        </div>
-
-                        <div class="mySlides">
-                        <img class="" src="https://picsum.photos/300/300" style="width:100%">
-                        <div class="prom_prod_title">Marble</div>
-
-                        </div>
-
-                       <div class="mySlides">
-                        <img class="" src="https://picsum.photos/500/500" style="width:100%">
-                        <div class="prom_prod_title">HEST</div>
-
-                        </div>
+                    <!--TEMPLATE UDKSRIVES HER-->
+                    <div id="hest" class="w3-content">
 
 
-                       <div class="mySlides">
-                        <img class="" src="https://picsum.photos/100/100" style="width:100%">
-                        <div class="prom_prod_title">FEST</div>
 
-                        </div>
 
-                        <div class="mySlides">
-                       <img class="" src="https://picsum.photos/200/200" style="width:100%">
-                        <div class="prom_prod_title">ABe</div>
-
-                        </div>
                     </div>
-
-                    <div class="w3-center">
-                        <div class="w3-section">
-                            <button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
-                            <button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next ❯</button>
-                        </div>
-                        <button class="w3-button demo" onclick="currentDiv(1)">1</button>
-                        <button class="w3-button demo" onclick="currentDiv(2)">2</button>
-                        <button class="w3-button demo" onclick="currentDiv(3)">3</button>
-                        <button class="w3-button demo" onclick="currentDiv(4)">4</button>
-                        <button class="w3-button demo" onclick="currentDiv(5)">5</button>
-                    </div>
-
-
                 </div>
+
+                <div class="w3-center">
+                    <div class="w3-section">
+                        <button class="w3-button w3-light-grey next_1" onclick="plusDivs(-1)">❮ Prev</button>
+                        <button class="w3-button w3-light-grey next_2" onclick="plusDivs(1)">Next ❯</button>
+                    </div>
+                    <div class="demo_con">
+                    <button class="w3-button demo" onclick="currentDiv(1)">1</button>
+                    <button class="w3-button demo" onclick="currentDiv(2)">2</button>
+                    <button class="w3-button demo" onclick="currentDiv(3)">3</button>
+                    <button class="w3-button demo" onclick="currentDiv(4)">4</button>
+                    <button class="w3-button demo" onclick="currentDiv(5)">5</button>
+                    </div>
+                </div>
+
+
+
+
             </article>
-
-
-
-
-
             <!--       <img src="https://picsum.photos/300/300" alt="">-->
 
         </div>
@@ -109,6 +101,13 @@
     <!-- SCRIPTS -->
     <script src="JS/main-script.js"></script>
     <script src="JS/index.js"></script>
+    <script src="JS/prom_prod_slide.js"></script>
+
+    <script>
+
+
+
+    </script>
 
 </body>
 </html>

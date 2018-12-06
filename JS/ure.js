@@ -31,7 +31,7 @@ async function getJson() {
 }
 
 
-function filter(){
+function filter() {
 
 
 
