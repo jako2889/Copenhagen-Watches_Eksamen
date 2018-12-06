@@ -1,3 +1,6 @@
+
+/*SLIDER*/
+
 .single_product_container{
 
 
@@ -113,3 +116,109 @@
 
     width: 100%;
 }
+
+
+/*CTA*/
+
+.single_cta_wrapper{}
+
+.single_cta_con{
+
+    font-family: europa, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+    color: var(--main-tekst_graa-color);
+
+
+}
+
+.tag{
+
+    font-family: europa, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+
+}
+
+.tag_con{
+
+    margin: 10px;
+}
+
+.single_kob{
+
+    font-family: europa, sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    background-color: var(--main-sand-color);
+    width: 200px;
+    height: 40px;
+    border: 0px transparent solid;
+
+    margin: 10px;
+    border-radius: 5%;
+    font-style: normal;
+    text-align: center;
+}
+
+/*BESKRIVELSE*/
+
+.single_beksrivelse_wrapper{ }
+
+.single_beksrivelse_con {
+
+    background-color: rgba(128, 128, 128, 0.26);
+        color: var(--main-tekst_graa-color);
+
+    padding: 20px;
+
+
+}
+
+.bskr_title{
+
+    font-family: europa, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+
+}
+
+.bskr_text p{
+
+    font-size: .7em;
+}
+
+
+/*SPECS*/
+
+.single_specs_wrapper{}
+
+.single_specs_con{
+
+    font-family: europa, sans-serif;
+    font-weight: 100;
+    color: var(--main-tekst_graa-color);
+    background-color: rgba(128, 128, 128, 0.14);
+    padding: 5px;
+
+}
+
+
+.spec_con{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    margin: 5px 0px;
+    padding-bottom:5px;
+}
+
+.spec_tag{}
+
+.spec{}
+
+
+
+
