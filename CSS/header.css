@@ -212,6 +212,7 @@ font-style: normal;
 }
 
 
+
 /*BURGER MENU TOGGLE*/
 
 @media only screen and (max-width: 1000px) {
@@ -388,3 +389,20 @@ font-style: normal;
 
 
 }
+
+/*HEADER DROPDOWN I MOBIL & TABLET*/
+@media screen and (max-width: 1000px) {
+
+    .dropdown-kollektioner {
+/*        display: block;*/
+        position: inherit;
+        background: none;
+        box-shadow: none;
+    }
+    .dropdown-kollektioner a {
+        text-align: center;
+        color: white;
+        line-height: 10px;
+    }
+}
+
