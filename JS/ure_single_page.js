@@ -11,7 +11,7 @@ console.log(sPost);
 
 async function getJson() {
 
-    let jsonObject = await fetch("https://magnusvjensen.dk/2_semester/eksamen/wordpress/wp-json/wp/v2/product");
+    let jsonObject = await fetch("https://magnusvjensen.dk/2_semester/eksamen/wordpress/wp-json/wp/v2/product/?per_page=100");
 
     allPost = await jsonObject.json();
 
