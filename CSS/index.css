@@ -416,8 +416,11 @@ font-size: 1.6em;
 
 .ind_vid_ifram_con {
 
+/*SKAL VI BEHOLDE DET?*/
+/*
     box-shadow: 20px 25px 0px rgba(0, 0, 0, 0.22);
     outline: 1px solid black;
+*/
 
 }
 
