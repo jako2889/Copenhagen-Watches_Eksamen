@@ -492,4 +492,10 @@ font-size: 1.5em;
 }
 
 
+    .site_content_container{
+
+        border: 5px solid rgba(0, 0, 0, 0.01);
+    }
+
 }
+
