@@ -107,7 +107,11 @@ flex-direction: column;
     background-color: transparent;
     border-radius: 5px;
     margin-top: 20px;
+    cursor: pointer;
 
+}
+.splash_cta:hover {
+    opacity: 0.7;
 }
 
 /*Kollektioner*/
