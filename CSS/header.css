@@ -274,25 +274,26 @@ font-style: normal;
 .dropdown-kollektioner {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #30403e;
     min-width: 220px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 102;
 }
 
 .dropdown-kollektioner a {
-    color: black;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     clear: right;
     text-align: left;
+
 }
 
 
 .dropdown-kollektioner a:hover {
 
-    background-color: #ddd;
+    background-color: rgb(45, 59, 57);
 }
 
 
@@ -404,5 +405,10 @@ font-style: normal;
         color: white;
         line-height: 10px;
     }
+
+    .dropdown-kollektioner a:hover {
+
+    background-color: rgb(45, 59, 57);
+}
 }
 
