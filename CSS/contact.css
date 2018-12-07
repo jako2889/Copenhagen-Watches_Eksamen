@@ -159,7 +159,6 @@ fieldset {
     font-size: 15px;
     font-weight: 700;
     font-family: 'PT Sans', sans-serif;
-    box-shadow: 5px 5px rgba(136, 136, 136, 0.16);
 }
 
 #contact button[type="submit"]:hover {
