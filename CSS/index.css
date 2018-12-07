@@ -308,6 +308,16 @@ flex-direction: column;
 
     grid-area: i;
 
+    background-color: black;
+    background-image: url(../ASSETS/ur1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: 100% 100%;
+
+    width: 100%;
+
+
 }
 
 .ind_life_txt_con {
@@ -383,3 +393,110 @@ font-size: 1.6em;
 }
 
 
+/*DESIGN TIL PRODUKT*/
+
+
+.index_design_con {
+
+    color: var(--main-tekst_graa-color);
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+
+        "i"
+        "t"
+
+
+
+}
+
+.ind_design_img {
+
+    grid-area: i;
+
+    background-color: black;
+    background-image: url(../ASSETS/ur3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: 100% 110%;
+
+    width: 100%;
+
+
+}
+
+.ind_design_txt_con {
+
+    grid-area: t;
+
+    padding: 25px;
+    background-color: rgba(128, 128, 128, 0.23);
+}
+
+.ind_design_head {
+
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.ind_design_text {
+    font-size: 1.2em;
+
+}
+
+.ind_design_cta {
+
+    font-family: europa, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1em;
+    padding: 10px 50px;
+    background-color: var(--main-sand-color);
+    border-radius: 5px;
+}
+
+/*FEATURED */
+
+.featured_wrapper{}
+
+.featured_con{
+
+    width: 100%;
+    font-family: europa, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    padding: 25px;
+    color: var(--main-tekst_graa-color);
+
+}
+
+.feat_head{
+
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.feat_euman_logo{
+
+    margin: 25px 0px;
+    padding: 25px;
+}
+
+.feat_cta{
+
+
+    font-family: europa, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1em;
+    padding: 10px 50px;
+    background-color: var(--main-sand-color);
+    border-radius: 5px;
+}
+
+/*FEATURED END */
