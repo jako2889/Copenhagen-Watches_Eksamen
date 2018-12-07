@@ -13,7 +13,7 @@ body {}
 .index_splash_wrapper {
 
     background-color: black;
-    background-image: url(../ASSETS/leather_bg.jpg);
+    background-image: url(../ASSETS/splash_1.png);
     background-repeat: cover;
     background-attachment: fixed;
     background-size: 200%;
@@ -58,10 +58,10 @@ flex-direction: column;
 
 
     letter-spacing: 3px;
-    font-size: 1.5em;
+    font-size: 1.2em;
     text-align: center;
 
-    margin:px
+    margin:5px
 
 }
 
