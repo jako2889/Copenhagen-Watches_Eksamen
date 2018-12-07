@@ -178,7 +178,7 @@ width: 100%;
 .single_kob{
 
     font-family: europa, sans-serif;
-    font-weight: 100;
+    font-weight: 700;
     text-transform: uppercase;
     background-color: var(--main-sand-color);
     width: 200px;
@@ -228,7 +228,7 @@ width: 100%;
 .single_specs_con{
 
     font-family: europa, sans-serif;
-    font-weight: 100;
+    font-weight: 400;
     font-size: .8em;
 
     color: var(--main-tekst_graa-color);
