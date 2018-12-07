@@ -185,6 +185,31 @@ letter-spacing:1px;
 
 /*PRODUCTS END --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
+/*ure text*/
+
+.ure_text_wrapper{
+
+    background-color: rgba(128, 128, 128, 0.08);
+}
+.ure_text_con{
+
+    color: var(--main-tekst_graa-color);
+    text-align: center;
+    padding: 50px 25px;
+    margin: 20px 0px;
+
+
+}
+.ure_text{
+
+    padding: 25px 0px;
+     border-bottom: 1px solid rgba(0, 0, 0, 0.19);
+    border-top: 1px solid rgba(0, 0, 0, 0.19);
+
+}
+
+
+
 
 /*MEDIA Q*/
 
@@ -197,6 +222,36 @@ letter-spacing:1px;
     text-align: center;
     grid-gap: 5px;
     padding: 2px;
+}
+
+/*
+.ure_text_con{
+
+
+    padding: 50px 200px;
+    margin: 20px 0px;
+
+
+}
+*/
+}
+
+@media screen and (min-width: 800px){
+
+
+.ure_text_con{
+
+
+    padding: 50px 200px;
+    margin: 20px 0px;
+
+}
+
+.ure_text{
+
+    padding: 50px 0px;
+
+
 }
 
 
