@@ -19,7 +19,7 @@ body {}
 }
 
 .site_content_container{
-
+    border: 5px solid rgba(0, 0, 0, 0.01);
     width: 100%;
     max-width: 1200px;
     grid-column: 2/3;
