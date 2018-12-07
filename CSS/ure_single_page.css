@@ -136,6 +136,7 @@ width: 100%;
     margin: 0;
     width: 100%;
     border: 0px transparent solid;
+    cursor: pointer;
 
 }
 
@@ -190,6 +191,10 @@ width: 100%;
     font-style: normal;
     text-align: center;
     align-self: center;
+    cursor: pointer;
+}
+.single_kob:hover {
+    opacity: 0.8;
 }
 
 /*BESKRIVELSE*/
