@@ -271,6 +271,7 @@ cursor: pointer;
     margin: 15px;
     background-color: var(--main-sand-color);
     border-radius: 5px;
+    cursor: pointer;
 }
 
 /*sLIDE KNAPPER */
@@ -381,6 +382,10 @@ cursor: pointer;
     background-color: var(--main-sand-color);
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+}
+.ind_life_cta:hover {
+    opacity: 0.8;
 }
 
 /*VIDEO*/
@@ -506,6 +511,10 @@ font-size: 1.6em;
     background-color: var(--main-sand-color);
     border: none;
     border-radius: 5px;
+    cursor: pointer;
+}
+.ind_design_cta:hover {
+    opacity: 0.8;
 }
 
 /*FEATURED */
