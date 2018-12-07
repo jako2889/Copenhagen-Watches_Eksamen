@@ -9,6 +9,21 @@ img {
 
 body {}
 
+.site_content_wrapper{
+
+    margin: 0px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr minmax(50px, 1000px) 1fr;
+    grid-template-rows: 1fr;
+}
+
+.site_content_container{
+
+    width: 100%;
+    max-width: 1000px;
+    grid-column: 2/3;
+}
 
 .index_splash_wrapper {
 
@@ -500,3 +515,84 @@ font-size: 1.6em;
 }
 
 /*FEATURED END */
+
+
+/*MEDIA Q*/
+
+
+@media screen and (min-width: 400px){
+
+    .index_kollekioner_con{
+
+            grid-template-columns: 1fr 1fr;
+
+        font-size: 5vw;
+    }
+
+    .kol_head{
+
+        margin:50px;
+        font-size: 8vw;
+
+
+    }
+
+}
+
+    @media screen and (min-width: 600px){
+
+
+/*    kollektioner    */
+      .index_kollekioner_con{
+
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+
+        font-size: 2vw;
+    }
+
+
+
+
+
+
+
+/*        slide*/
+        .w3-content{
+
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            width: 100%;
+            height: 400px;
+            padding: 10px;
+            overflow: scroll;
+        }
+
+        .w3-center{
+
+            display: none;
+        }
+}
+
+
+
+    @media screen and (min-width: 800px){
+
+    .index_kollekioner_con{
+
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+
+        font-size: 1.7em;
+    }
+
+    .kol_head{
+
+        margin:50px;
+        font-size: 8vw;
+
+
+    }
+
+
+
+
+}
