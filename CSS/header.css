@@ -143,10 +143,6 @@ font-style: italic;
         width: 80%;
         font-size: 1.3em;
     }
-    #kurv_container {
-    width: 500px;
-
-}
 
 }
 /*FLEX TIL KURV FÆRDIG*/
@@ -382,6 +378,7 @@ font-style: normal;
     }
     .open_kurv {
         z-index: 101;
+        width: 500px;
 }
 
     #kurv_top {
