@@ -1,9 +1,161 @@
+/*FLEX TIL KURV*/
+
+ #logo_buttom {
+  grid-column: 1 / 4;
+}
+
+
+  #top_knap,
+  #nyhedsbrev_tekst {
+    grid-column: 1 / 4;
+  }
+
+
+body {
+  margin: 0 auto;
+
+}
+form {
+text-align: center;
+
+}
+
+#titel,
+#top_knap,
+#nyhedsbrev_tekst,
+#logo_buttom {
+  display: flex;
+flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 15vh;
+  width: 100%;
+}
+#logo_buttom img {
+    width: 200px;
+}
+
+
+form p {
+font-family: droid-serif, serif;
+font-weight: 700;
+font-style: italic;
+}
+
+    form {
+        width: 100%;
+        height: 100%;
+
+    }
+
+
+   input {
+        border: none;
+        color: grey;
+        padding: 0;
+        font-size: 1em;
+        font-family: sans-serif;
+       width: 80%;
+
+
+    }
+
+input#email {
+    border-bottom: 1.5px solid black;
+
+}
+
+
+
+    .send {
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+font-family: bebas-neue, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+    }
+
+
+    input[type=submit] {
+    background-color: #C0BBA0; color: black;
+    text-transform: uppercase;
+    width: 300px;
+    height: 40px;
+    border: 0px transparent solid;
+    margin: 10px;
+    border-radius: 2%;
+    font-style: normal;
+    text-align: center;
+
+
+    }
+
+.shop_knap {
+    text-transform: uppercase;
+    width: 200px;
+    height: 40px;
+    border: 0px transparent solid;
+    margin: 10px;
+    border-radius: 5%;
+    font-style: normal;
+    text-align: center;
+
+font-family: bebas-neue, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+background-color: #C0BBA0;
+
+}
+
+#nyhedsbrev_tekst p {
+    font-family: droid-serif, serif;
+font-weight: 700;
+font-style: italic;
+}
+
+
+@media screen and (min-width: 450px) {
+  body {
+
+
+  }
+    .shop_knap {
+        max-width: 50vw;
+        max-height: 10vw;
+    }
+    input[type=submit] {
+        max-height: 8vw;
+        font-size: 1.3em;
+    }
+
+}
+@media screen and (min-width: 1000px) {
+
+    .shop_knap {
+        max-width: 20vw;
+        max-height: 3vw;
+    }
+    input[type=submit] {
+        max-height: 3vw;
+        width: 80%;
+        font-size: 1.3em;
+    }
+    #kurv_container {
+    width: 500px;
+
+}
+
+}
+/*FLEX TIL KURV FÆRDIG*/
+
 /*HEADER*/
 header {
     background-color: #30403E;
     position: sticky;
     top: 0;
-    z-index: 100;
 }
 
 nav {
@@ -62,6 +214,7 @@ font-style: normal;
     display: none;
 }
 
+
 /*BURGER MENU TOGGLE*/
 
 @media only screen and (max-width: 1000px) {
@@ -109,4 +262,131 @@ font-style: normal;
     .menu {
         top: 7vw;
     }
+}
+
+/*DROPDOWN*/
+
+
+
+.dropdown_container {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-kollektioner {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 220px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 102;
+}
+
+.dropdown-kollektioner a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    clear: right;
+    text-align: left;
+}
+
+
+.dropdown-kollektioner a:hover {
+
+    background-color: #ddd;
+}
+
+
+.dropdown_container:hover .dropdown-kollektioner {
+    display: block;
+}
+
+/*KURV I HEADER & TRANSITION IND*/
+
+#kurv_nav img {
+    width: 25px;
+
+    margin-right: 1em;
+    margin-top: 1.5em;
+
+    float: right;
+    cursor: pointer;
+}
+
+#kurv_top {
+    background-color: #30403E;
+    width: 100%;
+    height: 70px;
+
+    display: grid;
+    grid-template-columns: 25vw 1fr 25vw;
+
+}
+
+#kurv_popup_logo img {
+       width: 25px;
+
+    margin-right: 1em;
+    margin-top: 1.5em;
+
+    float: right;
+}
+#kryds a {
+    text-decoration: none;
+    color: white;
+    font-size: 2.5em;
+
+}
+#kryds {
+    float: left;
+    margin-top: 0.7em;
+    margin-left: 1em;
+}
+
+#kurv_container {
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    right: 0;
+    transition: 0.3s;
+    background-color: white;
+    height: 100%;
+}
+
+.close_kurv {
+    width: 0;
+    opacity: 0;
+}
+
+.open_kurv {
+    width: 100%;
+    opacity: 100;
+}
+
+#kurv_top h3 {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+    margin-top: 1.1em;
+    color: white;
+
+}
+
+@media screen and (min-width: 1000px) {
+
+    header {
+        z-index: 100;
+
+    }
+    .open_kurv {
+        z-index: 101;
+}
+
+    #kurv_top {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+
 }

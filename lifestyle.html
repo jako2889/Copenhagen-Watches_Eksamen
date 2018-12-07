@@ -26,16 +26,33 @@
         <nav>
             <div id="nav_container">
                 <div class="logo_header">
+                   <a href="index.html">
                     <img src="SVG/white_logo.svg" alt="Copenhagen Watches">
+                    </a>
                 </div>
+                <div id="kurv_nav">
+                <img src="SVG/Kurv.svg" alt="Shopping Cart">
+                </div>
+
                 <label for="toggle">&#9776;</label>
                 <input type="checkbox" id="toggle"/>
+
 
                    <div class="menu">
 
                     <a href="index.html">Home</a>
-                    <a href="ure.html">Ure</a>
-                    <a href="#">Lifestyle</a>
+
+                    <div class="dropdown_container">
+                    <a class="dropdown_link" href="ure.html">Ure</a>
+                        <div class="dropdown-kollektioner">
+                        <a href="#">Copenhagen</a>
+                        <a href="#">Christiania</a>
+                        <a href="#">Frederiksberg</a>
+                        <a href="#">Nyhavn</a>
+                        </div>
+                    </div>
+
+                    <a href="lifestyle.html">Lifestyle</a>
                     <a href="about.html">About</a>
                     <a href="contact.html">Contact</a>
 
@@ -45,6 +62,44 @@
             </div>
         </nav>
     </header>
+
+        <div id="kurv_container" class="close_kurv">
+      <div id="kurv_top">
+
+                <div id="kryds">
+                <a href="#">&times;</a>
+                </div>
+                <h3>Din indkøbskurv</h3>
+                <div id="kurv_popup_logo">
+                <img src="SVG/Kurv.svg" alt="Shopping Cart">
+                </div>
+
+      </div>
+       <div class="kurv">
+        <div id="titel">
+            <h3>Din indkøbskurv er tom</h3>
+        </div>
+        <div id="top_knap">
+            <a href="ure.html"><button class="shop_knap">Fortsæt med at handle</button></a>
+        </div>
+
+        <div id="nyhedsbrev_tekst">
+            <p>Du kan altid fælge med i vores nyhedsbrev</p>
+        </div>
+
+        <form>
+            <input id="email" class="email_box" type="email" placeholder="Enter your email adress...." required>
+
+            <input class="send" type="submit" value="SIGN UP"><span id="response"></span>
+        </form>
+
+        <div id="logo_buttom">
+
+            <img src="SVG/black_logo.svg" alt="Copenhagen Watches">
+
+        </div>
+    </div>
+    </div>
 
    <section id="lifestyle" class="site_content_wrapper">
 
@@ -124,6 +179,7 @@
 <!-- SCRIPTS -->
 <script src="JS/main-script.js"></script>
 <script src="JS/lifestyle.js"></script>
+<script src="JS/kurv.js"></script>
 
 </body>
 </html>
