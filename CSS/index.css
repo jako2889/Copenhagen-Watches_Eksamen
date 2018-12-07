@@ -256,14 +256,15 @@ cursor: pointer;
 .prom_prod_cta {
 
     font-family: europa, sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     font-style: normal;
     font-size: 1em;
     text-align: center;
-    padding: 5px 60px;
+    padding: 10px 70px;
+    border: none;
     margin: 15px;
-    box-shadow: 2px 6px 10px rgba(0, 0, 0, 0.14);
     background-color: var(--main-sand-color);
+    border-radius: 5px;
 }
 
 /*sLIDE KNAPPER */
@@ -367,11 +368,12 @@ cursor: pointer;
 .ind_life_cta {
 
     font-family: europa, sans-serif;
-    font-weight: 100;
+    font-weight: 700;
     font-style: normal;
     font-size: 1em;
     padding: 10px 50px;
     background-color: var(--main-sand-color);
+    border: none;
     border-radius: 5px;
 }
 
@@ -491,11 +493,12 @@ font-size: 1.6em;
 .ind_design_cta {
 
     font-family: europa, sans-serif;
-    font-weight: 100;
+    font-weight: 700;
     font-style: normal;
     font-size: 1em;
     padding: 10px 50px;
     background-color: var(--main-sand-color);
+    border: none;
     border-radius: 5px;
 }
 
