@@ -140,6 +140,7 @@ flex-direction: column;
     font-style: normal;
 }
 
+
 .index_kollekioner_con a {
 
     text-decoration: none;
@@ -159,7 +160,9 @@ flex-direction: column;
     margin: 25px;
 
 }
-
+.kol_con:hover {
+    opacity: 0.8;
+}
 
 
 
