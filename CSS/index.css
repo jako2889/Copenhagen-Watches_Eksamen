@@ -12,7 +12,7 @@ body {}
 .site_content_wrapper{
 
     margin: 0px;
-    width: 100%;
+    width: 100vw;
     display: grid;
     grid-template-columns: 1fr minmax(50px, 1200px) 1fr;
     grid-template-rows: 1fr;
@@ -374,10 +374,18 @@ cursor: pointer;
 
 /*VIDEO*/
 
-.index_video_wrapper {}
+.index_video_wrapper {
+
+    padding: 50px 0px; ;
+    background-color: var(--main-kobber_red-color);
+    display: grid;
+    grid-template-columns: 1fr minmax(20px, 800px) 1fr;
+
+    grid-template-areas: ". s ."
+}
 
 .index_video_con {
-
+    grid-area: s;
     width: 100%;
 
     font-family: europa, sans-serif;
@@ -385,7 +393,7 @@ cursor: pointer;
     font-style: normal;
     text-align: center;
     padding: 25px;
-    color: var(--main-tekst_graa-color);
+    color: antiquewhite;
 
 
 
@@ -406,11 +414,15 @@ font-size: 1.6em;
     font-size: 1.2em;
 }
 
-.ind_vid_ifram_con {}
+.ind_vid_ifram_con {
+
+    box-shadow: 20px 25px 0px rgba(0, 0, 0, 0.22);
+    outline: 1px solid black;
+
+}
 
 .ind_vid_ifram_con iframe {
     width: 100%;
-    padding: 50px 10px;
 
 }
 
@@ -483,9 +495,16 @@ font-size: 1.6em;
 
 /*FEATURED */
 
-.featured_wrapper{}
+.featured_wrapper{
+
+        display: grid;
+    grid-template-columns: 1fr minmax(20px, 400px) 1fr;
+
+    grid-template-areas: ". s ."
+}
 
 .featured_con{
+    grid-area: s;
 
     width: 100%;
     font-family: europa, sans-serif;
@@ -557,8 +576,38 @@ font-size: 1.6em;
         font-size: 2vw;
     }
 
+.ind_life_img {
+
+    grid-area: i;
+
+    background-color: black;
+    background-image: url(../ASSETS/ur1.jpg);
+    background-repeat: cover;
+    background-attachment: local;
+    background-size: 50%;
+    background-position: 50%;
+
+    width: 100%;
 
 
+}
+
+.ind_design_img {
+
+    grid-area: i;
+
+    background-color: black;
+    background-image: url(../ASSETS/ur3.jpg);
+    background-repeat: cover;
+    background-attachment: local;
+    background-size: 100%;
+    background-position: 50%;
+
+
+    width: 100%;
+
+
+}
 
 /*        slide*/
         .w3-content{
@@ -581,7 +630,7 @@ font-size: 1.6em;
 /*lifestyle        */
 
 
-        .index_lifestyle_con {
+.index_lifestyle_con {
 
 
 
@@ -591,21 +640,13 @@ font-size: 1.6em;
 
         "i t"
 
-
-
-
 }
 
 .ind_life_img {
 
     grid-area: i;
 
-    background-color: black;
-    background-image: url(../ASSETS/ur1.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 50%;
-    background-position: 100px;
+
 
     width: 100%;
 
@@ -639,14 +680,8 @@ font-size: 1.6em;
 
     grid-area: i;
 
-    background-color: black;
-    background-image: url(../ASSETS/ur3.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 50%;
-    background-position: 500px;
 
-    width: 100%;
+
 
 
 }
@@ -674,7 +709,7 @@ font-size: 1.6em;
     .kol_head{
 
         margin:50px;
-        font-size: 8vw;
+        font-size: 5em;
 
 
     }

@@ -75,12 +75,23 @@ font-style: normal;
 /*SOCIALE MEDIA-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 
-.some_wrapper{}
+.some_wrapper{
+        background-color: var(--main-nordisk-color);
+
+    display: grid;
+    grid-template-columns: 1fr minmax(20px, 400px) 1fr;
+
+    grid-template-areas: ". s ."
+}
 .some_con{
 
-    background-color: var(--main-nordisk-color);
+    grid-area: s;
+
 
     padding: 25px;
+    width: 100%;
+
+
 }
 
 .some_tag{
