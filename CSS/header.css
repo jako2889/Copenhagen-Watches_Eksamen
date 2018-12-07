@@ -193,6 +193,7 @@ label {
 }
 
 .menu a {
+        letter-spacing: .14em;
     text-decoration: none;
     color: black;
     line-height: 70px;
