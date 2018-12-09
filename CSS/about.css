@@ -96,7 +96,7 @@ flex-direction: column;
     grid-area: i;
 
     background-color: black;
-    background-image: url(../ASSETS/disclosure-02.png);
+    background-image: url(../ASSETS/ur4.jpg);
     background-size: cover;
 
     width: 100%;
@@ -149,6 +149,7 @@ flex-direction: column;
     grid-template-areas: "i t";
 
 }
+
 
     }
 /*----------------------------SEKTION 1 SLUT-------------------------------------------*/
@@ -213,7 +214,7 @@ flex-direction: column;
 }
 .about_sektion_2_img {
     background-color: black;
-    background-image: url(../ASSETS/test_3.jpg);
+    background-image: url(../ASSETS/test_3.png);
     background-size: cover;
     background-position: 100% 100%;
 
