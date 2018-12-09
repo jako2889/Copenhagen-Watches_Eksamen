@@ -153,6 +153,7 @@ flex-direction: column;
     }
 
 .about_sektion_2_wrapper {
+    margin-bottom: 2em;
 
 }
 .about_sektion_2_con {
@@ -176,6 +177,8 @@ flex-direction: column;
     background-size: cover;
 
     width: 100%;
+    display: flex;
+    justify-content: center;
 
 }
 .about_buttom {
@@ -183,6 +186,31 @@ flex-direction: column;
 
     padding: 25px;
     background-color: rgba(128, 128, 128, 0.23);
+
+}
+.about_sektion_2_img {
+    background-color: black;
+    background-image: url(../ASSETS/disclosure-02.png);
+    background-size: cover;
+
+    width: 25vw;
+    height: 25vw;
+
+
+}
+.about_sektion_2_head {
+    color: white;
+    text-align: center;
+    font-family: bebas-neue, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .14em;
+    font-size: 1.5em;
+
+}
+.about_sektion_2_tekst {
+    color: white;
+    text-align: center;
 
 }
 
@@ -201,6 +229,7 @@ flex-direction: column;
         min-height: 20vw;
     }
     .about_buttom {
+        grid-area: buttom;
         min-height: 20vw;
     }
 
