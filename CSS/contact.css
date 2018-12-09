@@ -3,6 +3,7 @@
 body {
     margin: 0;
       box-sizing: border-box;
+
 /*
     font-family: sans-serif;
     font-weight: 300;
@@ -54,6 +55,12 @@ iframe {
 
 
 /*...............KONTAKTFORMULAR................*/
+.kontakt_wrapper {
+    display: grid;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
 
 #kontakt_info {
     padding: 50px 60px 20px 60px;
@@ -253,7 +260,7 @@ fieldset {
 }
 
 
-/*SPLASH*/
+/*--------------------------------------SPLASH-------------------------------------*/
 
 .contact_splash_wrapper {
 
