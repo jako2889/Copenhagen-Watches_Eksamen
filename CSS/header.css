@@ -161,6 +161,8 @@ header {
     background-color: #30403E;
     position: sticky;
     top: 0;
+
+    box-shadow: 0px .1px 15px rgba(0, 0, 0, 0.91);
 }
 
 nav {
@@ -296,13 +298,15 @@ font-style: normal;
     display: block;
     clear: right;
     text-align: left;
+    width: 100%;
 
 }
 
 
 .dropdown-kollektioner a:hover {
 
-    background-color: rgb(45, 59, 57);
+    background-color: rgb(72, 86, 84);
+    color: white;
 }
 
 
@@ -315,12 +319,20 @@ font-style: normal;
 #kurv_nav img {
     width: 25px;
 
+
     margin-right: 1em;
     margin-top: 1.5em;
 
     float: right;
     cursor: pointer;
 }
+
+#kurv_nav img:hover {
+
+    opacity: .8;
+
+}
+
 
 #kurv_top {
     background-color: #30403E;
@@ -350,6 +362,11 @@ font-style: normal;
     float: left;
     margin-top: 0.7em;
     margin-left: 1em;
+}
+
+#kryds:hover {
+
+    opacity: .8;
 }
 
 #kurv_container {

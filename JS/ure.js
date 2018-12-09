@@ -9,7 +9,7 @@ let postTarget = document.querySelector(".product_template");
 let postOutput = document.querySelector(".product_wrapper");
 
 
-let knap_kollektion = "alle";
+let knap_kollektion = "alle ure";
 
 
 
@@ -58,7 +58,10 @@ function visPost() {
    console.log("FEST");
 
 
-        if(knap_kollektion == "alle"){
+    document.querySelector(".fitler_header").textContent = knap_kollektion ;
+
+
+        if(knap_kollektion == "alle ure"){
 
                     udSkrivPost(post);
 
@@ -67,6 +70,7 @@ function visPost() {
         if(knap_kollektion == post.acf.kollektion){
 
                     udSkrivPost(post);
+            console.log("hej");
 
         };
 
@@ -84,6 +88,7 @@ function visPost() {
             klon.querySelector(".prod_dial").textContent = post.acf.dial;
             klon.querySelector(".prod_rem").textContent = post.acf.rem;
             klon.querySelector(".prod_pris").textContent = post.acf.pris + " " + "kr.";
+
 
 
             klon.querySelector(".product_container").addEventListener("click",() =>{

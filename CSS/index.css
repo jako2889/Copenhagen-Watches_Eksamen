@@ -9,7 +9,7 @@ img {
 
 body {}
 
-.site_content_wrapper{
+.site_content_wrapper {
 
     margin: 0px;
     width: 100vw;
@@ -18,7 +18,7 @@ body {}
     grid-template-rows: 1fr;
 }
 
-.site_content_container{
+.site_content_container {
     border: 5px solid rgba(0, 0, 0, 0.01);
     width: 100%;
     max-width: 1200px;
@@ -49,14 +49,14 @@ body {}
     color: white;
 
 
-display: flex;
+    display: flex;
 
-flex-direction: column;
+    flex-direction: column;
 
 
 }
 
-.splash_ur{
+.splash_ur {
     align-self: center;
     grid-area: b;
     background-image: url(../ASSETS/ure2.png);
@@ -68,6 +68,7 @@ flex-direction: column;
     height: 200px;
 
 }
+
 .index_splash_text {
     align-self: center;
 
@@ -75,10 +76,9 @@ flex-direction: column;
     letter-spacing: 3px;
     font-size: 1.2em;
     text-align: center;
-        font-weight: 400;
+    font-weight: 400;
 
-    margin:5px
-
+    margin: 5px
 }
 
 .splash_cta_con {
@@ -111,6 +111,7 @@ flex-direction: column;
     cursor: pointer;
 
 }
+
 .splash_cta:hover {
     opacity: 0.7;
 }
@@ -166,6 +167,7 @@ flex-direction: column;
     margin: 25px;
 
 }
+
 .kol_con:hover {
     opacity: 0.8;
 }
@@ -178,8 +180,8 @@ flex-direction: column;
 
 .mySlides:hover {
 
-border: solid 1px rgba(128, 128, 128, 0.17);
-cursor: pointer;
+    border: solid 1px rgba(128, 128, 128, 0.17);
+    cursor: pointer;
 
 
 }
@@ -266,12 +268,20 @@ cursor: pointer;
     font-style: normal;
     font-size: 1em;
     text-align: center;
-    padding: 10px 70px;
+    padding: 10px 45px;
     border: none;
     margin: 15px;
     background-color: var(--main-sand-color);
     border-radius: 5px;
     cursor: pointer;
+}
+
+.prom_prod_cta:hover {
+
+    cursor: pointer;
+    background-color: #cec8aa;
+
+
 }
 
 /*sLIDE KNAPPER */
@@ -386,15 +396,20 @@ cursor: pointer;
     border-radius: 5px;
     cursor: pointer;
 }
+
 .ind_life_cta:hover {
-    opacity: 0.8;
+
+    cursor: pointer;
+    background-color: #cec8aa;
+
 }
 
 /*VIDEO*/
 
 .index_video_wrapper {
 
-    padding: 50px 0px; ;
+    padding: 50px 0px;
+    ;
     background-color: var(--main-kobber_red-color);
     display: grid;
     grid-template-columns: 1fr minmax(20px, 800px) 1fr;
@@ -421,7 +436,7 @@ cursor: pointer;
 
 .ind_vid_head {
 
-font-size: 1.6em;
+    font-size: 1.6em;
 
 }
 
@@ -434,8 +449,8 @@ font-size: 1.6em;
 
 .ind_vid_ifram_con {
 
-/*SKAL VI BEHOLDE DET?*/
-/*
+    /*SKAL VI BEHOLDE DET?*/
+    /*
     box-shadow: 20px 25px 0px rgba(0, 0, 0, 0.22);
     outline: 1px solid black;
 */
@@ -517,21 +532,25 @@ font-size: 1.6em;
     border-radius: 5px;
     cursor: pointer;
 }
+
 .ind_design_cta:hover {
-    opacity: 0.8;
+
+    cursor: pointer;
+    background-color: #cec8aa;
+
 }
 
 /*FEATURED */
 
-.featured_wrapper{
+.featured_wrapper {
 
-        display: grid;
+    display: grid;
     grid-template-columns: 1fr minmax(20px, 400px) 1fr;
 
     grid-template-areas: ". s ."
 }
 
-.featured_con{
+.featured_con {
     grid-area: s;
 
     width: 100%;
@@ -544,19 +563,19 @@ font-size: 1.6em;
 
 }
 
-.feat_head{
+.feat_head {
 
     text-transform: uppercase;
     font-size: 1.5em;
 }
 
-.feat_euman_logo{
+.feat_euman_logo {
 
     margin: 25px 0px;
     padding: 25px;
 }
 
-.feat_cta{
+.feat_cta {
 
 
     font-family: europa, sans-serif;
@@ -574,18 +593,18 @@ font-size: 1.6em;
 /*MEDIA Q*/
 
 
-@media screen and (min-width: 400px){
+@media screen and (min-width: 400px) {
 
-    .index_kollekioner_con{
+    .index_kollekioner_con {
 
-            grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
 
         font-size: 5vw;
     }
 
-    .kol_head{
+    .kol_head {
 
-        margin:50px;
+        margin: 50px;
         font-size: 8vw;
 
 
@@ -593,175 +612,325 @@ font-size: 1.6em;
 
 }
 
-    @media screen and (min-width: 600px){
+@media screen and (min-width: 600px) {
 
 
-/*    kollektioner    */
-      .index_kollekioner_con{
+    /*    kollektioner    */
+    .index_kollekioner_con {
 
-            grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
 
         font-size: 2vw;
     }
 
-.ind_life_img {
+    .ind_life_img {
 
-    grid-area: i;
+        grid-area: i;
 
-    background-color: black;
-    background-image: url(../ASSETS/disclosure-02.png);
-    background-repeat: cover;
-    background-attachment: local;
-    background-size: 100%;
-    background-position: 50%;
+        background-color: black;
+        background-image: url(../ASSETS/disclosure-02.png);
+        background-repeat: cover;
+        background-attachment: local;
+        background-size: 100%;
+        background-position: 50%;
 
-    width: 100%;
-
-
-}
-
-.ind_design_img {
-
-    grid-area: i;
-
-    background-color: black;
-    background-image: url(../ASSETS/ur3.jpg);
-    background-repeat: cover;
-    background-attachment: local;
-    background-size: 100%;
-    background-position: 50%;
+        width: 100%;
 
 
-    width: 100%;
+    }
+
+    .ind_design_img {
+
+        grid-area: i;
+
+        background-color: black;
+        background-image: url(../ASSETS/ur3.jpg);
+        background-repeat: cover;
+        background-attachment: local;
+        background-size: 100%;
+        background-position: 50%;
 
 
-}
+        width: 100%;
 
-/*        slide*/
-        .w3-content{
+
+    }
+
+    /*        slide*/
+    .w3-content {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        width: 100%;
+        height: 400px;
+        padding: 10px;
+        overflow: scroll;
+    }
+
+    .w3-center {
+
+        display: none;
+    }
+
+
+
+    /*lifestyle        */
+
+
+    .index_lifestyle_con {
+
+
+
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+
+            "i t"
+
+    }
+
+    .ind_life_img {
+
+        grid-area: i;
+
+
+
+        width: 100%;
+
+
+    }
+
+    .ind_life_txt_con {
+
+        grid-area: t;
+        padding: 100px 10px;
+    }
+
+    /*DESIGN TIL PRODUKT*/
+
+
+    .index_design_con {
+
+
+
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas:
+
+            "t i"
+
+
+
+    }
+
+    .ind_design_img {
+
+        grid-area: i;
+
+
+
+
+
+    }
+
+    .ind_design_txt_con {
+
+        grid-area: t;
+
+        padding: 100px 10px;
+        ;
+
+    }
+
+    /*MEDIA Q*/
+
+
+    @media screen and (min-width: 600px) {
+
+        .index_kollekioner_con {
+
+            grid-template-columns: 1fr 1fr;
+
+            font-size: 1.7em;
+        }
+
+        .kol_head {
+
+            margin: 50px;
+            font-size: 5em;
+
+
+        }
+
+       .w3-content {
 
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
             width: 100%;
-            height: 400px;
+            height: 800px;
             padding: 10px;
-            overflow: scroll;
+            overflow: hidden;
+
+            grid-template-areas:
+
+                ". a a b b ."
+                "c c d d e e"
+
+                ;
+
+
         }
 
-        .w3-center{
+        .mySlides:nth-child(1) {
 
-            display: none;
+            grid-area: a;
+            border-bottom: 1px solid rgba(128, 128, 128, 0.09);
         }
 
+        .mySlides:nth-child(2) {
+              border-bottom: 1px solid rgba(128, 128, 128, 0.09);
+               grid-area: b;
+        }
 
+        .mySlides:nth-child(3) {
 
-/*lifestyle        */
+               grid-area: c;
+        }
 
+        .mySlides:nth-child(4) {
 
-.index_lifestyle_con {
+               grid-area: d;
+        }
 
+        .mySlides:nth-child(5) {
 
+               grid-area: e;
+        }
 
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas:
-
-        "i t"
-
-}
-
-.ind_life_img {
-
-    grid-area: i;
-
-
-
-    width: 100%;
-
-
-}
-
-.ind_life_txt_con {
-
-    grid-area: t;
-   padding: 100px 10px;
-}
-
-        /*DESIGN TIL PRODUKT*/
-
-
-.index_design_con {
+    }
 
 
 
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas:
+    }
 
-        "t i"
+    @media screen and (min-width: 800px) {
 
-
-
-}
-
-.ind_design_img {
-
-    grid-area: i;
-
-
-
-
-
-}
-
-.ind_design_txt_con {
-
-    grid-area: t;
-
-    padding: 100px 10px;
-;
-
-}
-
-
-
-    @media screen and (min-width: 800px){
-
-    .index_kollekioner_con{
+        .index_kollekioner_con {
 
             grid-template-columns: 1fr 1fr 1fr 1fr;
 
-        font-size: 1.7em;
+            font-size: 1.7em;
+        }
+
+        .kol_head {
+
+            margin: 50px;
+            font-size: 5em;
+
+
+        }
+
+        .w3-content {
+
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            width: 100%;
+            height: 1000px;
+            padding: 10px;
+            overflow: hidden;
+
+            grid-template-areas:
+
+                ". a a b b ."
+                "c c d d e e"
+
+                ;
+
+
+        }
+
+        .mySlides:nth-child(1) {
+
+            grid-area: a;
+
+        }
+
+        .mySlides:nth-child(2) {
+
+               grid-area: b;
+        }
+
+        .mySlides:nth-child(3) {
+
+               grid-area: c;
+        }
+
+        .mySlides:nth-child(4) {
+
+               grid-area: d;
+        }
+
+        .mySlides:nth-child(5) {
+
+               grid-area: e;
+        }
+
     }
 
-    .kol_head{
-
-        margin:50px;
-        font-size: 5em;
 
 
-    }
+    @media screen and (min-width: 1000px) {
 
-
-
-
-}
-
-
-    @media screen and (min-width: 1000px){
-
-     .w3-content{
+      .w3-content {
 
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
             width: 100%;
             height: 400px;
             padding: 10px;
             overflow: hidden;
+
+            grid-template-areas:
+
+                "a b c d e"
+
+                ;
+
+
         }
 
+        .mySlides:nth-child(1) {
+
+            grid-area: a;
+            border-bottom: 0px solid rgba(128, 128, 128, 0.09);
+
+        }
+
+        .mySlides:nth-child(2) {
+            border-bottom: 0px solid rgba(128, 128, 128, 0.09);
+
+               grid-area: b;
+        }
+
+        .mySlides:nth-child(3) {
+
+               grid-area: c;
+        }
+
+        .mySlides:nth-child(4) {
+
+               grid-area: d;
+        }
+
+        .mySlides:nth-child(5) {
+
+               grid-area: e;
+        }
+
+    }
 
 
 
-
-}

@@ -69,6 +69,15 @@ grid-template-rows: 1fr;
     padding-bottom: 15px;
 }
 
+.fitler_header{
+    text-align: center;
+    font-size: 2.5em;
+    margin: 20px;
+    font-family: "Bebas Neue";
+    text-align: center;
+    letter-spacing: 1.5px;
+
+}
 .filter_knap{
 
     margin: 0px 5px;
