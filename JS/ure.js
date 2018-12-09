@@ -60,6 +60,42 @@ function visPost() {
 
     document.querySelector(".fitler_header").textContent = knap_kollektion ;
 
+          //SPLASH
+
+         if(knap_kollektion == "alle ure"){
+
+                document.querySelector(".ure_splash_wrapper").style.backgroundImage = "url(../ASSETS/splash_2.png)";
+
+            }
+
+            if(knap_kollektion == "Frederiksberg"){
+
+                document.querySelector(".ure_splash_wrapper").style.backgroundImage = "url(../ASSETS/splash_fred.jpg)";
+
+            }
+
+         if(knap_kollektion == "Copenhagen"){
+
+                document.querySelector(".ure_splash_wrapper").style.backgroundImage = "url(../ASSETS/splash_cop.jpg)";
+
+            }
+
+         if(knap_kollektion == "Christiania"){
+
+                document.querySelector(".ure_splash_wrapper").style.backgroundImage = "url(../ASSETS/splash_chris.jpg)";
+
+
+
+            }
+
+         if(knap_kollektion == "Nyhavn"){
+
+                document.querySelector(".ure_splash_wrapper").style.backgroundImage = "url(../ASSETS/splash_ny.jpg)";
+
+            }
+
+
+
 
         if(knap_kollektion == "alle ure"){
 
@@ -77,6 +113,10 @@ function visPost() {
 
         //Udskriver fra template til dokument
         function udSkrivPost(post) {
+
+
+
+
 
             //Kloner template elementerne
             let klon = postTarget.cloneNode(true).content;
