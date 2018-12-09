@@ -409,8 +409,7 @@ body {}
 .index_video_wrapper {
 
     padding: 50px 0px;
-    ;
-    background-color: var(--main-kobber_red-color);
+    background-color: var(--main-green-color);
     display: grid;
     grid-template-columns: 1fr minmax(20px, 800px) 1fr;
 
