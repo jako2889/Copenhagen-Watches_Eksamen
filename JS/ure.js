@@ -64,7 +64,7 @@ function visPost() {
 
          if(knap_kollektion == "alle ure"){
 
-                document.querySelector(".ure_splash_wrapper").style.backgroundImage = "url(../ASSETS/splash_2.png)";
+                document.querySelector(".ure_splash_wrapper").style.backgroundImage = "url(../ASSETS/splash_2.jpg)";
 
             }
 
