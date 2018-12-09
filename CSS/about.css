@@ -71,7 +71,7 @@ flex-direction: column;
 }
 
 /*EFTER SPLASH*/
-/*LIFESTYLE*/
+/*----------------------------SEKTION 1-------------------------------------------*/
 
 
 .about_lifestyle_con {
@@ -151,6 +151,9 @@ flex-direction: column;
 }
 
     }
+/*----------------------------SEKTION 1 SLUT-------------------------------------------*/
+
+/*----------------------------SEKTION 2-------------------------------------------*/
 
 .about_sektion_2_wrapper {
     margin-bottom: 2em;
@@ -291,3 +294,84 @@ flex-wrap: wrap;
         font-size: 1em;
     }
 }
+/*----------------------------SEKTION 2 SLUT-------------------------------------------*/
+
+/*----------------------------SEKTION 3-------------------------------------------*/
+
+.about_sektion_3_con {
+
+    color: var(--main-tekst_graa-color);
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+
+        "t"
+        "i"
+
+
+
+}
+
+.ind_life_img {
+
+    grid-area: i;
+
+    background-color: black;
+    background-image: url(../ASSETS/disclosure-02.png);
+    background-size: cover;
+
+    width: 100%;
+
+
+}
+
+.ind_life_txt_con {
+
+    grid-area: t;
+
+    padding: 25px;
+    background-color: rgba(128, 128, 128, 0.23);
+}
+
+.ind_life_head {
+
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
+.ind_life_text {
+    font-size: 1em;
+    text-align: left;
+
+}
+
+.ind_life_cta {
+    float: right;
+
+    font-family: europa, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1em;
+    padding: 10px 50px;
+    background-color: var(--main-sand-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.ind_life_cta:hover {
+    opacity: 0.8;
+}
+
+
+@media screen and (min-width: 600px) {
+.about_sektion_3_con {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "t i";
+
+}
+
+    }
