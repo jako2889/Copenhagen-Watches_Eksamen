@@ -88,9 +88,13 @@ font-style: normal;
     border-radius: 2%;
     font-style: normal;
     text-align: center;
+        cursor: pointer;
 
 
     }
+input[type=submit]:hover {
+    opacity: 0.8;
+}
 
 .shop_knap {
     text-transform: uppercase;
@@ -107,7 +111,12 @@ font-weight: 700;
 font-style: normal;
 
 background-color: #C0BBA0;
+    cursor: pointer;
 
+}
+.shop_knap:hover {
+    border: none;
+    opacity: 0.8;
 }
 
 #nyhedsbrev_tekst p {

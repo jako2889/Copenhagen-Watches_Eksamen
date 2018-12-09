@@ -1,0 +1,385 @@
+img {
+
+
+    width: 100%;
+}
+
+
+/*SPLASH*/
+
+body {}
+
+.site_content_wrapper{
+
+    margin: 0px;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr minmax(50px, 1200px) 1fr;
+    grid-template-rows: 1fr;
+}
+
+.site_content_container{
+    border: 5px solid rgba(0, 0, 0, 0.01);
+    width: 100%;
+    max-width: 1200px;
+    grid-column: 2/3;
+}
+
+
+.about_splash_wrapper {
+
+    background-color: black;
+    background-image: url(../ASSETS/splash_2.png);
+    background-repeat: cover;
+    background-attachment: fixed;
+    background-size: 200%;
+    background-position: 100%;
+
+    width: 100%;
+    height: 400px;
+    margin-bottom: 2em;
+}
+
+.about_splash_con {
+
+    padding: 50px;
+    width: 100%;
+    height: 100%;
+
+
+justify-content: center;
+
+display: flex;
+
+flex-direction: column;
+
+
+}
+.about_splash_text {
+    align-self: center;
+    font-family: bebas-neue, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    letter-spacing: .14em;
+
+    font-size: 2em;
+    text-align: center;
+
+    margin:5px
+
+}
+
+/*EFTER SPLASH*/
+/*----------------------------SEKTION 1-------------------------------------------*/
+
+
+.about_lifestyle_con {
+
+    color: var(--main-tekst_graa-color);
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+
+        "i"
+        "t"
+
+
+
+}
+
+.ind_life_img {
+
+    grid-area: i;
+
+    background-color: black;
+    background-image: url(../ASSETS/ur4.jpg);
+    background-size: cover;
+
+    width: 100%;
+
+
+}
+
+.ind_life_txt_con {
+
+    grid-area: t;
+
+    padding: 25px;
+    background-color: rgba(128, 128, 128, 0.23);
+}
+
+.ind_life_head {
+
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color: black;
+}
+
+.ind_life_text {
+    font-size: 1em;
+    text-align: left;
+    color: black;
+
+}
+
+.ind_life_cta {
+    float: right;
+
+    font-family: europa, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1em;
+    padding: 10px 50px;
+    background-color: var(--main-sand-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.ind_life_cta:hover {
+    opacity: 0.8;
+}
+
+
+@media screen and (min-width: 600px) {
+.about_lifestyle_con {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "i t";
+
+}
+
+
+    }
+/*----------------------------SEKTION 1 SLUT-------------------------------------------*/
+
+/*----------------------------SEKTION 2-------------------------------------------*/
+
+.about_sektion_2_wrapper {
+    margin-bottom: 2em;
+
+
+}
+.about_sektion_2_con {
+    color: var(--main-tekst_graa-color);
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+
+        "top"
+        "buttom";
+
+
+
+}
+
+.about_top {
+    grid-area: top;
+
+    background-color: var(--main-green-color);
+    background-size: cover;
+
+    width: 100%;
+
+}
+.about_buttom {
+    grid-area: buttom;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    padding: 25px;
+    background-color: rgba(128, 128, 128, 0.23);
+    display: none;
+
+}
+.about_sektion_2_cta {
+    font-family: europa, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1em;
+    padding: 10px 50px;
+    background-color: var(--main-sand-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+}
+.about_sektion_2_cta:hover {
+    opacity: 0.8;
+}
+.about_sektion_2_img {
+    background-color: black;
+    background-image: url(../ASSETS/test_3.png);
+    background-size: cover;
+    background-position: 100% 100%;
+
+    display: flex;
+flex-wrap: wrap;
+        justify-content: center;
+    height: 100vw;
+    border-radius: 2px;
+
+}
+
+.about_sektion_2_head {
+    color: white;
+    text-align: center;
+    font-family: bebas-neue, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .14em;
+    font-size: 1.5em;
+
+}
+.about_sektion_2_tekst {
+    color: white;
+    text-align: center;
+
+}
+
+@media screen and (min-width: 600px) {
+    .about_sektion_2_con {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+
+        "top"
+        "buttom";
+
+    }
+    .about_top {
+        min-height: 20vw;
+        display: flex;
+        justify-content: center;
+
+
+    }
+    .about_buttom {
+        grid-area: buttom;
+        min-height: 20vw;
+        display: block;
+    }
+    .about_sektion_2_img {
+    position: relative;
+    top: 50%;
+
+
+    width: 25vw;
+    height: 25vw;
+    display: flex;
+flex-wrap: wrap;
+        justify-content: center;
+
+
+    }
+    .about_sektion_2_head {
+        font-size: 2em;
+            margin: auto;
+    }
+    .about_sektion_2_tekst {
+
+    }
+
+
+}
+@media screen and (min-width: 601px) and (max-width: 1050px) {
+
+    .about_sektion_2_img {
+        width: 50vw;
+    }
+
+    .about_sektion_2_head {
+        font-size: 1em;
+    }
+}
+/*----------------------------SEKTION 2 SLUT-------------------------------------------*/
+
+/*----------------------------SEKTION 3-------------------------------------------*/
+
+.about_sektion_3_con {
+
+    color: var(--main-tekst_graa-color);
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+
+        "t"
+        "i"
+
+
+
+}
+
+.ind_life_img {
+
+    grid-area: i;
+
+    background-color: black;
+    background-image: url(../ASSETS/disclosure-02.png);
+    background-size: cover;
+
+    width: 100%;
+
+
+}
+
+.ind_life_txt_con {
+
+    grid-area: t;
+
+    padding: 25px;
+    background-color: rgba(128, 128, 128, 0.23);
+}
+
+.ind_life_head {
+
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color: black;
+}
+
+.ind_life_text {
+    font-size: 1em;
+    text-align: left;
+    color: black;
+
+}
+
+.ind_life_cta {
+    float: right;
+
+    font-family: europa, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1em;
+    padding: 10px 50px;
+    background-color: var(--main-sand-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.ind_life_cta:hover {
+    opacity: 0.8;
+}
+
+
+@media screen and (min-width: 600px) {
+.about_sektion_3_con {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "t i";
+
+}
+
+    }
