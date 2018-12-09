@@ -162,7 +162,7 @@ flex-direction: column;
 
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
     grid-template-areas:
 
         "top"
@@ -189,6 +189,7 @@ flex-direction: column;
 
     padding: 25px;
     background-color: rgba(128, 128, 128, 0.23);
+    display: none;
 
 }
 .about_sektion_2_cta {
@@ -215,6 +216,7 @@ flex-direction: column;
     display: flex;
 flex-wrap: wrap;
         justify-content: center;
+    height: 100vw;
 
 }
 .about_sektion_2_head {
@@ -254,6 +256,7 @@ flex-wrap: wrap;
     .about_buttom {
         grid-area: buttom;
         min-height: 20vw;
+        display: block;
     }
     .about_sektion_2_img {
     position: relative;
@@ -270,10 +273,21 @@ flex-wrap: wrap;
     }
     .about_sektion_2_head {
         font-size: 2em;
+            margin: auto;
     }
     .about_sektion_2_tekst {
 
     }
 
 
+}
+@media screen and (min-width: 601px) and (max-width: 1050px) {
+
+    .about_sektion_2_img {
+        width: 50vw;
+    }
+
+    .about_sektion_2_head {
+        font-size: 1em;
+    }
 }
