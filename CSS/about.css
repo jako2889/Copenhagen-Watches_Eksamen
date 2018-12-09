@@ -213,15 +213,18 @@ flex-direction: column;
 }
 .about_sektion_2_img {
     background-color: black;
-    background-image: url(../ASSETS/disclosure-02.png);
+    background-image: url(../ASSETS/test_3.jpg);
     background-size: cover;
+    background-position: 100% 100%;
 
     display: flex;
 flex-wrap: wrap;
         justify-content: center;
     height: 100vw;
+    border-radius: 2px;
 
 }
+
 .about_sektion_2_head {
     color: white;
     text-align: center;

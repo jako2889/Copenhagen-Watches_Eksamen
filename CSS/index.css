@@ -345,8 +345,8 @@ cursor: pointer;
     background-image: url(../ASSETS/disclosure-02.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100%;
-    background-position: 100% 100%;
+    background-size: cover;
+    background-position: 50% 100%;
 
     width: 100%;
 
@@ -605,10 +605,10 @@ font-size: 1.6em;
     grid-area: i;
 
     background-color: black;
-    background-image: url(../ASSETS/ur1.jpg);
+    background-image: url(../ASSETS/disclosure-02.png);
     background-repeat: cover;
     background-attachment: local;
-    background-size: 50%;
+    background-size: 100%;
     background-position: 50%;
 
     width: 100%;
