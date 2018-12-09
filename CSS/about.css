@@ -148,9 +148,60 @@ flex-direction: column;
     grid-template-rows: 1fr;
     grid-template-areas: "i t";
 
-    min-height: 300px;
 }
 
     }
 
+.about_sektion_2_wrapper {
 
+}
+.about_sektion_2_con {
+    color: var(--main-tekst_graa-color);
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+
+        "top"
+        "buttom"
+
+}
+
+.about_top {
+    grid-area: top;
+
+    background-color: var(--main-green-color);
+    background-size: cover;
+
+    width: 100%;
+
+}
+.about_buttom {
+        grid-area: buttom;
+
+    padding: 25px;
+    background-color: rgba(128, 128, 128, 0.23);
+
+}
+
+@media screen and (min-width: 600px) {
+    .about_sektion_2_con {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+
+        "top"
+        "buttom";
+
+    }
+    .about_top {
+        min-height: 20vw;
+    }
+    .about_buttom {
+        min-height: 20vw;
+    }
+
+}
