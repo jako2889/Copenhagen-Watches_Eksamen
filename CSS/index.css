@@ -12,7 +12,7 @@ body {}
 .site_content_wrapper {
 
     margin: 0px;
-    width: 100vw;
+    width: 100%;
     display: grid;
     grid-template-columns: 1fr minmax(50px, 1200px) 1fr;
     grid-template-rows: 1fr;
