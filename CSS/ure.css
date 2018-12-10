@@ -328,3 +328,14 @@ letter-spacing:1px;
 
 
 }
+
+@media screen and (min-width: 1000px){
+
+
+    .ure_filter_container{
+
+        font-size: 3em;
+    }
+
+
+}
