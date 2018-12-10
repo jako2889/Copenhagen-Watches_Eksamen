@@ -98,6 +98,7 @@ input[type=submit]:hover {
     font-style: normal;
     background-color: #C0BBA0;
     cursor: pointer;
+    letter-spacing: .14em;
 }
 
 .shop_knap:hover {
