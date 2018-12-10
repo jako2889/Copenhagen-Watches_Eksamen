@@ -1,12 +1,73 @@
-.fest{
+img {
 
-    font-family: bebas-neue, sans-serif;
-font-weight: 400;
-font-style: normal;
 
-    font-size: 6vw;
-    text-align: center;
-    margin: 20%;
+    width: 100%;
+}
+
+
+/*SPLASH*/
+
+body {}
+
+.site_content_wrapper{
+
+    margin: 0px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr minmax(50px, 1200px) 1fr;
+    grid-template-rows: 1fr;
+}
+
+.site_content_container{
+    border: 5px solid rgba(0, 0, 0, 0.01);
+    width: 100%;
+    max-width: 1200px;
+    grid-column: 2/3;
+}
+
+
+.lifestyle_splash_wrapper {
+
+    background-color: black;
+    background-image: url(../ASSETS/splash_2.png);
+    background-repeat: cover;
+    background-attachment: fixed;
+    background-size: 200%;
+    background-position: 100%;
+
+    width: 100%;
+    height: 400px;
+    margin-bottom: 2em;
+}
+
+.lifestyle_splash_con {
+
+    padding: 50px;
+    width: 100%;
+    height: 100%;
+
+
+justify-content: center;
+
+display: flex;
+
+flex-direction: column;
 
 
 }
+.lifestyle_splash_text {
+    align-self: center;
+    font-family: bebas-neue, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    letter-spacing: .14em;
+
+    font-size: 2em;
+    text-align: center;
+
+    margin:5px
+
+}
+
+/*EFTER SPLASH*/
