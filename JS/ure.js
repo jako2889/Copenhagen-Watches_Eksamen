@@ -64,25 +64,25 @@ function visPost() {
 
          if(knap_kollektion == "alle ure"){
 
-                document.querySelector(".ure_splash_wrapper").style.backgroundImage = "url(../ASSETS/splash_2.jpg)";
+                document.querySelector(".ure_splash_wrapper").style.backgroundImage = "url(ASSETS/splash_2.jpg)";
 
             }
 
             if(knap_kollektion == "Frederiksberg"){
 
-                document.querySelector(".ure_splash_wrapper").style.backgroundImage = "url(../ASSETS/splash_fred.jpg)";
+                document.querySelector(".ure_splash_wrapper").style.backgroundImage = "url(ASSETS/splash_fred.jpg)";
 
             }
 
          if(knap_kollektion == "Copenhagen"){
 
-                document.querySelector(".ure_splash_wrapper").style.backgroundImage = "url(../ASSETS/splash_cop.jpg)";
+                document.querySelector(".ure_splash_wrapper").style.backgroundImage = "url(ASSETS/splash_cop.jpg)";
 
             }
 
          if(knap_kollektion == "Christiania"){
 
-                document.querySelector(".ure_splash_wrapper").style.backgroundImage = "url(../ASSETS/splash_chris.jpg)";
+                document.querySelector(".ure_splash_wrapper").style.backgroundImage = "url(ASSETS/splash_chris.jpg)";
 
 
 
@@ -90,7 +90,7 @@ function visPost() {
 
          if(knap_kollektion == "Nyhavn"){
 
-                document.querySelector(".ure_splash_wrapper").style.backgroundImage = "url(../ASSETS/splash_ny.jpg)";
+                document.querySelector(".ure_splash_wrapper").style.backgroundImage = "url(ASSETS/splash_ny.jpg)";
 
             }
 
