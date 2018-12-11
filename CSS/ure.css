@@ -316,10 +316,11 @@ letter-spacing:1px;
 
 .product_wrapper{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
     grid-gap: 5px;
-    padding: 2px;
+    padding: 0px 150px;
+    grid-gap: 50px;
 }
 
 /*
