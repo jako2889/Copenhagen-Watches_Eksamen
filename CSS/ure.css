@@ -48,7 +48,7 @@ a:hover{
     background-color: black;
     background-image: url(../ASSETS/splash_2.jpg);
 
-    transition: 1s;
+    transition: .0s;
 
 /*SPLASH BILLEDER FILTER -- SE .JS    */
 /*
@@ -60,8 +60,8 @@ a:hover{
 
     background-repeat: cover;
     background-attachment: fixed;
-    background-size: 100%;
-    background-position: 100%;
+    background-size: 150%;
+    background-position: 50% 50%;
 
     width: 100%;
     height: 400px;
@@ -284,16 +284,43 @@ letter-spacing:1px;
 
 
 /*MEDIA Q*/
+@media screen and (min-width: 600px){
 
+.ure_splash_wrapper {
 
+    background-color: black;
+    background-image: url(../ASSETS/splash_2.jpg);
+
+    transition: .0s;
+
+/*SPLASH BILLEDER FILTER -- SE .JS    */
+/*
+    background-image: url(../ASSETS/splash_chris.jpg);
+    background-image: url(../ASSETS/splash_cop.jpg);
+    background-image: url(../ASSETS/splash_fred.jpg);
+    background-image: url(../ASSETS/splash_ny.jpg);
+*/
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-position: 100%;
+
+    width: 100%;
+    height: 400px;
+    margin-bottom: 2em;
+}
+
+}
 @media screen and (min-width: 600px){
 
 .product_wrapper{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
     grid-gap: 5px;
-    padding: 2px;
+    padding: 0px 150px;
+    grid-gap: 50px;
 }
 
 /*
