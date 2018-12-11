@@ -197,7 +197,7 @@ label {
 }
 
 .menu a:hover {
-    color: grey;
+    color: #b96b54;
 }
 
 #toggle {
@@ -288,8 +288,7 @@ label {
 
 
 .dropdown-kollektioner a:hover {
-    background-color: rgb(72, 86, 84);
-    color: white;
+    color: #b96b54;
 }
 
 
