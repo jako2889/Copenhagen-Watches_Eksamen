@@ -41,18 +41,19 @@ function visPost() {
 
             //Kloner template elementerne
             let klon = postTarget.cloneNode(true).content;
+            let kategori = post.acf.kollektion;
 
             klon.querySelector(".prom_prod_image").src = post.acf.image_prime.url;
-
             klon.querySelector(".prom_prod_title").textContent = post.acf.title;
             klon.querySelector(".prom_prod_kollektion").textContent = post.acf.kollektion;
             klon.querySelector(".prom_prod_dial").textContent = post.acf.dial;
             klon.querySelector(".prom_prod_rem").textContent = post.acf.rem;
             klon.querySelector(".prom_prod_pris").textContent = post.acf.pris + " " + "kr";
 
-
+            console.log(kategori);
 
             klon.querySelector(".mySlides").addEventListener("click",() =>{
+
 
                  window.location.href = "ure_single_page.html?id=" + post.id;
 

@@ -155,15 +155,14 @@ flex-direction: column;
 
 .feed_img_con{
     box-sizing: border-box;
-    opacity: 0.7;
-    z-index: -100;
+    opacity: .8;
 
 }
 
-.feed_img_con:hover{
-
+.feed_img_con:hover {
     opacity: 1;
-    cursor: pointer;
+   cursor: pointer;
+
 }
 
 
