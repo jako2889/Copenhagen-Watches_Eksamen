@@ -11,6 +11,11 @@ let postOutput = document.querySelector(".product_wrapper");
 
 let knap_kollektion = "alle ure";
 
+let urlParams = new URLSearchParams(window.location.search);
+
+let sPost = urlParams.get("data");
+
+console.log(sPost);
 
 
 //Hentf ---------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -27,6 +32,7 @@ async function getJson() {
 
     });
 
+    knap_kollektion = sPost;
     visPost();
 }
 

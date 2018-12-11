@@ -48,14 +48,13 @@
                 <div class="menu">
 
                     <a href="index.html">Home</a>
-
                     <div class="dropdown_container">
-                        <a class="dropdown_link" href="ure.html">Ure</a>
+                        <a class="dropdown_link kol_knap" href="#" data-knap_kollektion="alle ure">Ure</a>
                         <div class="dropdown-kollektioner">
-                            <a href="#">Copenhagen</a>
-                            <a href="#">Christiania</a>
-                            <a href="#">Frederiksberg</a>
-                            <a href="#">Nyhavn</a>
+                            <a class="kol_knap" href="#" data-knap_kollektion="Copenhagen" >Copenhagen</a>
+                            <a class="kol_knap" href="#" data-knap_kollektion="Christiania" >Christiania</a>
+                            <a class="kol_knap" href="#" data-knap_kollektion="Frederiksberg" >Frederiksberg</a>
+                            <a class="kol_knap" href="#" data-knap_kollektion="Nyhavn" >Nyhavn</a>
                         </div>
                     </div>
                     <a href="lifestyle.html">Lifestyle</a>
@@ -158,33 +157,33 @@
 
                 <div class="index_kollekioner_con">
 
-                    <a href="ure.html">
+                    <div class="kol_knap" data-knap_kollektion="Christiania">
                         <div class="kol_con kol_1">
                             <img class="kol_1_img" src="ASSETS/christiania_kollektionv2_border-01.png" alt="">
                             <div class="kol_1_title">Christiania</div>
                         </div>
-                    </a>
+                    </div>
 
-                    <a href="ure.html">
+                     <div class="kol_knap" data-knap_kollektion="Copenhagen">
                         <div class="kol_con kol_2">
                             <img class="kol_2_img" src="ASSETS/copenhagen_kollektionv2_border-01.png" alt="">
                             <div class="kol_2_title">Copenhagen</div>
                         </div>
-                    </a>
+                    </div>
 
-                    <a href="ure.html">
+                    <div class="kol_knap" data-knap_kollektion="Nyhavn">
                         <div class="kol_con kol_3">
                             <img class="kol_3_img" src="ASSETS/nyhavn_kollektionv2_border-01.png" alt="">
                             <div class="kol_3_title">Nyhavn</div>
                         </div>
-                    </a>
+                    </div>
 
-                    <a href="ure.html">
+                       <div class="kol_knap" data-knap_kollektion="Frederiksberg">
                         <div class="kol_con kol_4">
                             <img class="kol_5_img" src="ASSETS/frederiksberg_kollektionv2_border-01.png" alt="">
                             <div class="kol_4_title">Frederiksberg</div>
                         </div>
-                    </a>
+                    </div>
                 </div>
             </section>
 
@@ -387,6 +386,9 @@
     <script src="JS/index.js"></script>
     <script src="JS/prom_prod_slide.js"></script>
     <script src="JS/kurv.js"></script>
+    <script src="JS/redirect.js"></script>
+
+
 
     <script>
 

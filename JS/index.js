@@ -128,6 +128,3 @@ function showDivs(n) {
 
 
 
-
-
-
