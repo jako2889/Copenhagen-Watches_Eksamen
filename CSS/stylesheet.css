@@ -141,6 +141,8 @@ font-style: normal;
     grid-template-areas: ". n .";
     background: #30403E;
 
+        padding: 2em;
+
 }
 
 .index_news_con{
@@ -151,6 +153,7 @@ font-style: normal;
 fieldset{
 
     border: 1px solid transparent;
+        padding-bottom: 0;
 
 }
 .newsletter form {
@@ -190,16 +193,19 @@ fieldset{
     color: #fff8f8;
     display: block;
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 400;
     text-align: center;
+    letter-spacing: 0.2em;
+    font-family: bebas-neue, sans-serif;
 }
 
 #signup h4 {
-    margin: 18px 0 10px;
+    margin: 35px 0 10px;
     display: block;
     font-size: 17px;
-    font-weight: 200;
+    font-weight: 400;
     text-align: center;
+    font-style: italic;
 }
 
 
@@ -258,3 +264,12 @@ fieldset{
     position: relative;
     display: flex;
     text-align: center;
+}
+
+.some_ikoner {
+    width: 75px;
+    cursor: pointer;
+}
+.some_ikoner:hover {
+    opacity: 0.8;
+}
