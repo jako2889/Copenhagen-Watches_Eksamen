@@ -197,6 +197,7 @@ fieldset{
     text-align: center;
     letter-spacing: 0.2em;
     font-family: bebas-neue, sans-serif;
+        margin-top: 0;
 }
 
 #signup h4 {
@@ -267,8 +268,9 @@ fieldset{
 }
 
 .some_ikoner {
-    width: 75px;
+    width: 40px;
     cursor: pointer;
+    margin: 5px;
 }
 .some_ikoner:hover {
     opacity: 0.8;
