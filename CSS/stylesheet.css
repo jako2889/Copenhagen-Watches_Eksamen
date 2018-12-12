@@ -249,6 +249,7 @@ fieldset{
     -webkit-transition: background 0.5s ease-in-out;
     -moz-transition: background 0.5s ease-in-out;
     transition: background-color 0.5s ease-in-out;
+    color: whitesmoke;
 }
 
 #signup button[type="submit"]:active {
