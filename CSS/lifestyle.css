@@ -106,16 +106,16 @@ flex-direction: column;
 
 }
 .instagram_knap button {
-    background-color: #c0bba0;
-    padding: 10px 50px;
+background-color: #c0bba0;
+    padding: 25px 70px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-
-        font-family: bebas-neue, sans-serif;
-    font-weight: 700;
+    font-family: bebas-neue, sans-serif;
+    font-weight: 600;
     font-style: normal;
-    letter-spacing: .14em;
+    letter-spacing: 0.14em;
+    font-size: 1em;
 
 }
 .instagram_knap button:hover {
