@@ -384,6 +384,8 @@ flex-wrap: wrap;
 
     }
 
+/*----------------------------------BLUEPRINT--------------------------*/
+
 #blueprint_wrapper {
         display: flex;
     flex-wrap: wrap;
