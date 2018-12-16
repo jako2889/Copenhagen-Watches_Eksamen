@@ -383,3 +383,67 @@ flex-wrap: wrap;
 }
 
     }
+
+#blueprint_wrapper {
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.23);
+    margin-top: 2em;
+
+}
+
+#blueprint_container {
+    width: 100%;
+
+}
+#blueprint #ur-glas {
+    cursor: pointer;
+}
+#blueprint #ur-glas:hover {
+    opacity: 0.8;
+}
+#blueprint #ur-stel {
+    cursor: pointer;
+}
+#blueprint #ur-stel:hover {
+    opacity: 0.8;
+}
+#blueprint #ur-skive {
+    cursor: pointer;
+
+}
+#blueprint #ur-skive:hover {
+    opacity: 0.8;
+}
+#blueprint #ur-bund {
+    cursor: pointer;
+}
+#blueprint #ur-bund:hover {
+    opacity: 0.8;
+}
+
+#blueprint #ur-rem1 {
+    cursor: pointer;
+}
+#blueprint #ur-rem1:hover {
+    opacity: 0.8;
+}
+
+#blueprint #ur-rem2 {
+    cursor: pointer;
+}
+#blueprint #ur-rem2:hover {
+    opacity: 0.8;
+}
+
+@media screen and (min-width: 600px) {
+
+    #blueprint_container {
+    width: 1000px;
+
+
+}
+
+
+}
