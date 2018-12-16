@@ -1,0 +1,17 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 338.43 184.43">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 20px;
+      }
+    </style>
+  </defs>
+  <title>pil_ned</title>
+  <g>
+    <line class="cls-1" x1="7.07" y1="9.07" x2="175.36" y2="177.36"/>
+    <line class="cls-1" x1="331.36" y1="7.07" x2="163.07" y2="175.36"/>
+  </g>
+</svg>
