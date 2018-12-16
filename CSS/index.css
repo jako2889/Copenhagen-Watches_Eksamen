@@ -794,6 +794,7 @@ body {}
         font-size: 5em;
             margin-bottom: 0;
         padding-bottom: 0;
+        cursor: default;
 
 
     }
