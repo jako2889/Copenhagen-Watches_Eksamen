@@ -105,7 +105,7 @@ flex-direction: column;
     align-self: center;
 
 }
-.instagram_knap button {
+.instagram_knap a {
 background-color: #c0bba0;
     padding: 25px 70px;
     border: none;
@@ -116,9 +116,11 @@ background-color: #c0bba0;
     font-style: normal;
     letter-spacing: 0.14em;
     font-size: 1em;
+    color: black;
+    text-decoration: none;
 
 }
-.instagram_knap button:hover {
+.instagram_knap a:hover {
     opacity: 0.8;
 }
 
