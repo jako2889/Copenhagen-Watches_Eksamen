@@ -84,11 +84,8 @@ body {}
 .splash_cta_con {
     align-self: center;
 
-
-
-
-    width: 200px;
-    height: 50px;
+    margin: 10px;
+    margin-top: 20px;
 
 
 }
@@ -101,7 +98,9 @@ body {}
     font-style: normal;
     color: white;
     font-size: 1em;
-    padding: 5px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     letter-spacing: 0.5px;
 
     border: 3px solid white;
