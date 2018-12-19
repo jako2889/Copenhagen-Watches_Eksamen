@@ -386,6 +386,8 @@ body {}
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
 
 .ind_life_cta:hover {
@@ -539,6 +541,8 @@ height: 315px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
 
 .ind_design_cta:hover {
