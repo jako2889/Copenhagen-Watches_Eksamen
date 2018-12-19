@@ -86,14 +86,15 @@ input[type=submit]:hover {
 
 .shop_knap {
     text-transform: uppercase;
-    width: 200px;
-    height: 40px;
-    border: 0px transparent solid;
+    padding: 10px;
     margin: 10px;
-    border-radius: 5%;
+    border-radius: 3%;
+    text-decoration: none;
+    color: black;
     font-style: normal;
     text-align: center;
-    font-family: bebas-neue, sans-serif;
+    font-family: bebas-neue,
+    sans-serif;
     font-weight: 400;
     font-style: normal;
     background-color: #C0BBA0;
