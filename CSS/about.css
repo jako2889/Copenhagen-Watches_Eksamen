@@ -199,13 +199,18 @@ flex-direction: column;
 
 }
 .about_sektion_2_cta {
-    font-family: europa, sans-serif;
+font-family: europa, sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 1em;
-    padding: 10px 50px;
+    padding: 14px;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 50px;
     background-color: var(--main-sand-color);
     border: none;
+    color: black;
+    text-decoration: none;
     border-radius: 5px;
     cursor: pointer;
 
