@@ -29,7 +29,6 @@ body {}
 
     background-color: black;
     background-image: url(../ASSETS/splash_2.png);
-    background-repeat: cover;
     background-attachment: fixed;
     background-size: 200%;
     background-position: 50% 50%;
@@ -242,7 +241,7 @@ body {}
 
 .prom_prod_pris {
 
-    font-weight: 799;
+    font-weight: 700;
     margin-top: 10px;
 }
 
@@ -640,7 +639,6 @@ height: 315px;
 
         background-color: black;
         background-image: url(../ASSETS/disclosure-02.png);
-        background-repeat: cover;
         background-attachment: local;
         background-size: 100%;
         background-position: 50%;
@@ -656,7 +654,6 @@ height: 315px;
 
         background-color: black;
         background-image: url(../ASSETS/ur3.jpg);
-        background-repeat: cover;
         background-attachment: local;
         background-size: 100%;
         background-position: 50%;

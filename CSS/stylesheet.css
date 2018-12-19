@@ -137,7 +137,7 @@ font-style: normal;
 
 .index_news_wrapper{
     display: grid;
-    grid-template-columns: 1f minmax(50px, 300px);
+    grid-template-columns: minmax(50px, 300px);
     grid-template-areas: ". n .";
     background: #30403E;
 
