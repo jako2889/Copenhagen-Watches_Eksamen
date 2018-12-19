@@ -326,10 +326,11 @@ flex-wrap: wrap;
     grid-area: i;
 
     background-color: black;
-    background-image: url(../ASSETS/disclosure-02.png);
+    background-image: url(../ASSETS/ure_5.jpg);
     background-size: cover;
 
     width: 100%;
+    background-position: 100%;
 
 
 }
