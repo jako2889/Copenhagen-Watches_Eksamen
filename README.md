@@ -9,3 +9,5 @@ Link til site:
 http://jakobfalkenberg.dk/kea/2sem/eksamen/copenhagen_watches
 
 https://magnusvjensen.dk/2_semester/eksamen/2.sem_eksamen_Website
+
+http://faberenterprise.dk/eksamen/copenhagen_watches
