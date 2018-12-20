@@ -13,7 +13,7 @@ async function runProgram() {
 
     // Load SVG
 
-    let mySvg = await fetch("../SVG/interaktiv_svg_test_1.svg");
+    let mySvg = await fetch("interaktiv_svg_test_1.svg");
     let svg = await mySvg.text();
 
     document.querySelector("#blueprint").innerHTML = svg;

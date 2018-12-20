@@ -1,5 +1,5 @@
-<svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 1415.67 801">
-  <title>interaktiv_svg_done-5</title>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1415.67 801">
+  <title>interaktiv_svg_test_1</title>
   <g id="Layer_3" data-name="Layer 3">
     <rect x="307" width="801" height="801" fill="#30403e"/>
     <line x1="335" x2="335" y2="801" fill="none" stroke="#c0bba0" stroke-miterlimit="10" stroke-width="0.25"/>
@@ -313,7 +313,7 @@
         <text transform="translate(911.89 543.14) rotate(-150.49)" font-size="7.19" fill="#fff" font-family="BebasNeue-Regular, Bebas Neue">e</text>
         <text transform="matrix(-0.82, -0.57, 0.57, -0.82, 908.34, 541.07)" font-size="7.19" fill="#fff" font-family="BebasNeue-Regular, Bebas Neue">n</text>
         <text transform="translate(904.59 538.4) rotate(-140.43)" font-size="7.19" fill="#fff" font-family="BebasNeue-Regular, Bebas Neue">t</text>
-        <text transform="translate(901.45 535.69) rotate(-136.49)" font-size="7.19" fill="#fff" font-family="BebasNeue-Regular, Bebas Neue"> </text>
+        <text transform="translate(901.45 535.7) rotate(-136.49)" font-size="7.19" fill="#fff" font-family="BebasNeue-Regular, Bebas Neue"> </text>
         <text transform="matrix(-0.67, -0.74, 0.74, -0.67, 899.5, 533.82)" font-size="7.19" fill="#fff" font-family="BebasNeue-Regular, Bebas Neue">3</text>
         <text transform="matrix(-0.61, -0.79, 0.79, -0.61, 896.6, 530.54)" font-size="7.19" fill="#fff" font-family="BebasNeue-Regular, Bebas Neue">a</text>
         <text transform="matrix(-0.54, -0.84, 0.84, -0.54, 894.17, 527.27)" font-size="7.19" fill="#fff" font-family="BebasNeue-Regular, Bebas Neue">t</text>
@@ -330,19 +330,19 @@
         <text transform="translate(887 487.56) rotate(-74.55)" font-size="7.19" fill="#fff" font-family="BebasNeue-Regular, Bebas Neue">a</text>
         <text transform="matrix(0.34, -0.94, 0.94, 0.34, 888.27, 483.31)" font-size="7.19" fill="#fff" font-family="BebasNeue-Regular, Bebas Neue">i</text>
         <text transform="translate(889.27 480.59) rotate(-65.89)" font-size="7.19" fill="#fff" font-family="BebasNeue-Regular, Bebas Neue">n</text>
-        <text transform="translate(891.22 476.42) rotate(-60.88)" font-size="7.19" fill="#fff" font-family="BebasNeue-Regular, Bebas Neue">l</text>
+        <text transform="translate(891.23 476.42) rotate(-60.88)" font-size="7.19" fill="#fff" font-family="BebasNeue-Regular, Bebas Neue">l</text>
         <text transform="translate(893.22 472.95) rotate(-56.17)" font-size="7.19" fill="#fff" font-family="BebasNeue-Regular, Bebas Neue">e</text>
-        <text transform="translate(895.58 469.55) rotate(-51.37)" font-size="7.19" fill="#fff" font-family="BebasNeue-Regular, Bebas Neue">s</text>
+        <text transform="translate(895.58 469.56) rotate(-51.37)" font-size="7.19" fill="#fff" font-family="BebasNeue-Regular, Bebas Neue">s</text>
         <text transform="matrix(0.69, -0.73, 0.73, 0.69, 898.25, 466.32)" font-size="7.19" fill="#fff" font-family="BebasNeue-Regular, Bebas Neue">s</text>
         <text transform="translate(901.2 463.32) rotate(-42.57)" font-size="7.19" fill="#fff" font-family="BebasNeue-Regular, Bebas Neue"> </text>
         <text transform="matrix(0.78, -0.62, 0.62, 0.78, 903.2, 461.51)" font-size="7.19" fill="#fff" font-family="BebasNeue-Regular, Bebas Neue">s</text>
         <text transform="matrix(0.83, -0.56, 0.56, 0.83, 906.54, 458.94)" font-size="7.19" fill="#fff" font-family="BebasNeue-Regular, Bebas Neue">t</text>
-        <text transform="translate(910 456.69) rotate(-28.99)" font-size="7.19" fill="#fff" font-family="BebasNeue-Regular, Bebas Neue">e</text>
+        <text transform="translate(910 456.7) rotate(-28.99)" font-size="7.19" fill="#fff" font-family="BebasNeue-Regular, Bebas Neue">e</text>
         <text transform="translate(913.68 454.74) rotate(-24.15)" font-size="7.19" fill="#fff" font-family="BebasNeue-Regular, Bebas Neue">e</text>
         <text transform="matrix(0.94, -0.33, 0.33, 0.94, 917.47, 453.11)" font-size="7.19" fill="#fff" font-family="BebasNeue-Regular, Bebas Neue">l</text>
         <text transform="translate(921.29 451.84) rotate(-15.5)" font-size="7.19" fill="#fff" font-family="BebasNeue-Regular, Bebas Neue"> </text>
         <text transform="translate(923.87 451.16) rotate(-11.92)" font-size="7.19" fill="#fff" font-family="BebasNeue-Regular, Bebas Neue">-</text>
-        <text transform="translate(900.96 498.8)" font-size="10.82" fill="#fff" font-family="BebasNeue-Regular, Bebas Neue" letter-spacing="0.02em">C<tspan x="4.38" y="0" letter-spacing="0.02em">OPENH</tspan><tspan x="27.06" y="0" letter-spacing="0.02em">A</tspan><tspan x="31.59" y="0" letter-spacing="0.02em">GE</tspan><tspan x="40.18" y="0" letter-spacing="0em">N</tspan></text>
+        <text transform="translate(900.96 498.8)" font-size="10.82" fill="#fff" font-family="BebasNeue-Regular, Bebas Neue"><tspan letter-spacing="0.02em">C</tspan><tspan x="4.38" y="0" letter-spacing="0.02em">OPENH</tspan><tspan x="27.06" y="0" letter-spacing="0.02em">A</tspan><tspan x="31.59" y="0" letter-spacing="0.02em">GE</tspan><tspan x="40.18" y="0">N</tspan></text>
         <text transform="translate(901.31 507.84)" font-size="10.82" fill="#fff" font-family="BebasNeue-Regular, Bebas Neue"><tspan letter-spacing="0.21em">W</tspan><tspan x="8.26" y="0" letter-spacing="0.17em">A</tspan><tspan x="14.48" y="0" letter-spacing="0.22em">T</tspan><tspan x="20.75" y="0" letter-spacing="0.22em">C</tspan><tspan x="27.28" y="0" letter-spacing="0.22em">H</tspan><tspan x="34.19" y="0" letter-spacing="0.22em">E</tspan><tspan x="40.52" y="0">S</tspan></text>
         <rect x="898.1" y="488.46" width="74" height="21.87" fill="none"/>
         <rect x="962.39" y="491.32" width="7.25" height="7.25" fill="#fdffff"/>
