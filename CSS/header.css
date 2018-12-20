@@ -395,7 +395,7 @@ label {
 @media screen and (max-width: 1000px) {
 
     .dropdown-kollektioner {
-        /*        display: block;*/
+                display: block;
         position: inherit;
         background: none;
         box-shadow: none;
