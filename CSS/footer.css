@@ -18,6 +18,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(9, auto);
+    padding-left: 1em;
 
 
 }
@@ -162,6 +163,7 @@ footer #betaling #betaling_apple-pay {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(9, auto);
 text-align: center;
+        padding: 0;
 
 }
     footer #list_container1 {
